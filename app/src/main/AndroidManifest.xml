@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.symphonia">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.Manifest.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.Manifest.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".Helpers.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:roundIcon="@mipmap/ic_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activities.User_Management.Notifications.NotificationReceiver"></activity>
+        <receiver android:name=".Service.AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".Activities.User_Interface.RenameAlbum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Interface.EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Interface.AddSongsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Interface.AddAlbum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Management.Notifications.NotificationsHistoryActivity"
+            android:label="@string/notifications" />
+        <activity android:name=".Activities.User_Management.SignUp.ApplyArtist">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="thesymphonia.ddns.net"
+                    android:pathPrefix="/artist-activation/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.User_Management.Redirect.PaymentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="thesymphonia.ddns.net"
+                    android:pathPrefix="/apply-premium/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.User_Interface.TracksPreview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Management.ForgetPassword.NewPassword"
+            android:label="@string/reset_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Helpers.AdDialog"
+            android:theme="@style/Theme.UserDialog" />
+
+        <service android:name=".Helpers.MediaHelpers.MediaController" />
+
+        <activity
+            android:name=".Activities.User_Interface.ArtistsSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.User_Management.ForgetPassword.EmailCheck"
+            android:label="@string/check_email"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.ForgetPassword.ForgetPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Interface.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.ForgetPassword.ForgetPassword"
+            android:label="@string/forgot_password"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Interface.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.SignUp.Step5Activity"
+            android:label="@string/create_account"
+            android:parentActivityName=".Activities.User_Management.SignUp.Step4Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Management.SignUp.Step4Activity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.SignUp.Step4Activity"
+            android:label="@string/create_account"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.SignUp.Step3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Management.SignUp.Step3Activity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.SignUp.Step3Activity"
+            android:label="@string/create_account"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.SignUp.Step2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Management.SignUp.Step2Activity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.SignUp.Step2Activity"
+            android:label="@string/create_account"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.SignUp.Step1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Management.SignUp.Step1Activity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.SignUp.Step1Activity"
+            android:label="@string/create_account"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Management.WelcomeActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Management.WelcomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Interface.AddArtistsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Interface.CreatePlaylistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.User_Interface.PlayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.User_Management.LoginActivity"
+            android:label=""
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.User_Management.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.User_Interface.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.User_Interface.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+
+                <data android:scheme="mailto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.User_Interface.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="thesymphonia.ddns.net"
+                    android:pathPrefix="/password-reset/change/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.User_Interface.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Activities.User_Management.Notifications.MyFirebaseInstanceIdService"
+            android:directBootAware="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".Helpers.MediaHelpers.NotificationActionService" />
+
+        <service android:name=".Helpers.MediaHelpers.OnClearFromRecentService" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

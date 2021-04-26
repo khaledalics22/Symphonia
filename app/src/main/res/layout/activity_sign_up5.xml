@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activities.User_Management.SignUp.Step5Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/what_s_your_name"
+        android:textColor="@color/colorWhite"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="16sp"
+        app:autoSizeMaxTextSize="32sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/edit_text_style"
+        android:inputType="text"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:imeOptions="actionDone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_appears"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/next5"
+            android:onClick="openNext"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_curved_gray"
+            android:enabled="false"
+            android:text="@string/create"
+            android:textColor="@color/colorGradient2"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
+            android:textStyle="bold"
+            />
+            <ProgressBar
+                android:layout_marginTop="5dp"
+                android:id="@+id/progress_bar"
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:visibility="gone"
+                />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_terms"
+        android:id="@+id/t1"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy"
+        android:id="@+id/t2"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

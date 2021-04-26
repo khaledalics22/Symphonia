@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activities.User_Management.SignUp.Step2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/create_a_password"
+        android:textColor="@color/colorWhite"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="16sp"
+        app:autoSizeMaxTextSize="32sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_style"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:imeOptions="actionDone"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_8_characters"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/next"
+        android:onClick="openNext"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_curved_gray"
+        android:enabled="false"
+        android:text="@string/next"
+        android:textColor="@color/colorGradient2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

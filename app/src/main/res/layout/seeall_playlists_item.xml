@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/img_search_all_playlists"
+        android:layout_width="165dp"
+        android:layout_height="160dp" />
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:orientation="horizontal"
+        tools:ignore="RtlCompat">
+
+        <ImageView
+            android:id="@+id/img_search_shuffle_playlist"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorWhite"
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:src="@mipmap/shuffle_black_foreground"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_search_all_playlists"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_followers"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"/>
+</LinearLayout>

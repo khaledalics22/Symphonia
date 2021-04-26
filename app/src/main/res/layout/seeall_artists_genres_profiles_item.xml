@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:scaleType="centerCrop"
+        android:paddingEnd="4dp"
+        android:id="@+id/img_search_all_artists"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        tools:ignore="RtlCompat" />
+
+        <TextView
+            android:paddingStart="8dp"
+            android:id="@+id/tv_search_all_artists"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            app:autoSizeMaxTextSize="24sp"
+            app:autoSizeMinTextSize="14sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            android:textColor="@color/colorWhite"
+            tools:ignore="RtlCompat" />
+    <ImageView
+        android:id="@+id/img_show"
+        android:paddingStart="4dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@mipmap/get_item_searched_foreground"
+        android:layout_gravity="center_vertical"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

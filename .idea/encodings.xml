@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/symphonia/Activities/User_Interface/AddAlbum.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/symphonia/Activities/User_Interface/RenameAlbum.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/symphonia/Fragments_and_models/profile/BottomSheetDialogProfile.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/symphonia/Fragments_and_models/profile/ProfileFollowersFragment.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/symphonia/Fragments_and_models/profile/ProfilePlaylistsFragment.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-v21/bottom_sheet_dialog_profile.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_dialog_profile.xml" charset="windows-1256" />
+  </component>
+</project>

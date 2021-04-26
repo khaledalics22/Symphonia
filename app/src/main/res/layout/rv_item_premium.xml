@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/colorGray"
+    app:cardCornerRadius="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false" android:orientation="horizontal"
+        android:background="@drawable/premium"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+           <TextView
+               android:id="@+id/free"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:gravity="center"
+               android:layout_height="30dp"
+               android:text="@string/free"
+               android:textColor="@color/light_gray2"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               app:autoSizeTextType="uniform"
+               app:autoSizeMinTextSize="6sp"
+               app:autoSizeMaxTextSize="18sp"
+               app:autoSizeStepGranularity="1sp"
+               android:fontFamily="monospace"
+               >
+
+           </TextView>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/text_free"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/with_locked_songs"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="6sp"
+                app:autoSizeMaxTextSize="18sp"
+                app:autoSizeStepGranularity="1sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:text="@string/premium2"
+                android:textColor="@color/light_gray2"
+                android:layout_gravity="center_horizontal"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="6sp"
+                app:autoSizeMaxTextSize="18sp"
+                app:autoSizeStepGranularity="1sp"
+                android:fontFamily="monospace">
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_prem"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/play_any_song"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="6sp"
+                app:autoSizeMaxTextSize="18sp"
+                app:autoSizeStepGranularity="1sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

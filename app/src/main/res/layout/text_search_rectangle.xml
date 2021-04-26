@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/search_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:background="#595959"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/img_arrow_left"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_back"/>
+
+
+        <EditText
+            android:layout_gravity="center_vertical"
+            android:id="@+id/text_search_edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:gravity="center_vertical"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:textColor="@color/colorWhite"
+            android:textCursorDrawable="@color/colorGreen"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/close_search_rectangle"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/close_white_foreground"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:cardBackgroundColor="#333333"
+        app:cardCornerRadius="8dp">
+    <TextView
+        android:layout_marginHorizontal="8dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/search_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:background="#595959"
+        />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

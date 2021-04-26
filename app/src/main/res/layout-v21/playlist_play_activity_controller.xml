@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:background="@color/colorPrimary">
+
+    <SeekBar
+        android:id="@+id/seek_bar_play_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressBackgroundTint="@color/light_gray"
+        android:thumbTint="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_curr_sec_play_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/body_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar_play_activity"
+        tools:text="0.00" />
+
+    <TextView
+        android:id="@+id/tv_remain_secs_play_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/body_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar_play_activity"
+        tools:text="0.00" />
+
+    <ImageButton
+        android:id="@+id/iv_prev_track_playActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_skip_previous_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/play_btn_controller_play_activity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_like_track_playActivity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".3" />
+
+    <FrameLayout
+        android:id="@+id/play_btn_controller_play_activity"
+        android:layout_width="@dimen/image_small_item_size"
+        android:layout_height="@dimen/image_small_item_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_next_track_playActivity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_prev_track_playActivity"
+        app:layout_constraintTop_toTopOf="@+id/seek_bar_play_activity"
+        app:layout_constraintVertical_bias=".3" />
+
+    <ImageButton
+        android:id="@+id/iv_next_track_playActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_skip_next_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hide_track_playActivity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/play_btn_controller_play_activity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".3" />
+
+    <ImageButton
+        android:id="@+id/iv_hide_track_playActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_next_track_playActivity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".3" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="@dimen/large_dimen"
+        android:layout_height="@dimen/large_dimen"
+        android:layout_margin="@dimen/large_dimen"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_share_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/iv_hide_track_playActivity"
+        app:layout_constraintStart_toStartOf="@+id/iv_hide_track_playActivity"
+        app:layout_constraintTop_toBottomOf="@+id/iv_hide_track_playActivity"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <ImageButton
+        android:id="@+id/connect"
+        android:layout_width="@dimen/large_dimen"
+        android:layout_height="@dimen/large_dimen"
+        android:layout_margin="@dimen/large_dimen"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_devices_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/iv_like_track_playActivity"
+
+        app:layout_constraintStart_toStartOf="@+id/iv_like_track_playActivity"
+        app:layout_constraintTop_toBottomOf="@+id/iv_like_track_playActivity" />
+
+    <ImageButton
+        android:id="@+id/iv_like_track_playActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_favorite_border_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_prev_track_playActivity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

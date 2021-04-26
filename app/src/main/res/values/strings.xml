@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Symphonia</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_your_library">Your Library</string>
+    <string name="title_library">Library</string>
+    <string name="title_premium">Premium</string>
+    <string name="network">Network</string>
+    <string name="you_are_not_online">You\'re offline</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="millions_of_songs">Listen To Millions of songs.</string>
+    <string name="free_on_symphonia">Free on Symphonia.</string>
+    <string name="sign_up_free">SIGN UP FREE</string>
+    <string name="connect_with_facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="log_in">LOG IN</string>
+    <string name="logging_in">Logging in..</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="forget_your_paswword">Forget Your Paswword ?</string>
+    <string name="recently_played">Recently played</string>
+    <string name="made_for_you">Made for you</string>
+    <string name="heavy_playlist">Your heavy rotations playlist</string>
+    <string name="popular_playlist">Popular playlists</string>
+    <string name="based_on_your_recently_played">based on your recentlry played</string>
+
+    <string name="playlist_fragment" translatable="false">playlist fragment</string>
+    <string name="play">Play</string>
+    <string name="track_image">Track Image</string>
+    <string name="playlist_send_to_playActivtiy_intent" translatable="false">Playlist_Send_to_PlayActivity</string>
+    <string name="cant_read">can\'t read</string>
+    <string name="curr_playing_track_play_acitivity_intent">Currnet Playing Track</string>
+    <string name="only_local_data_show">only local data will appear</string>
+    <string name="playing_from">PLAYING FROM PLAYLIST</string>
+
+    <string name="library_toolbar_title">Music</string>
+    <string name="library_tab_playlists">Playlists</string>
+    <string name="library_tab_artists">Artists</string>
+    <string name="library_tab_albums">Albums</string>
+    <string name="create_playlist">Create playlist</string>
+    <string name="add_artists">Add Artists</string>
+    <string name="albums_empty_state">Your albums will appear here</string>
+    <string name="create_playlist_description">Give your playlist a name.</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="create_playlist_button">Create</string>
+    <string name="skip_playlist_name">Skip</string>
+
+    <string name="title_activity_add_artists">Choose more artists you like.</string>
+    <string name="done_button">Done</string>
+    <string name="welcome_to_symphonia">Welcome To Symphonia</string>
+    <string name="listener">Listener</string>
+    <string name="artist">Artist</string>
+    <string name="share_million_of_songs">Share Your Songs</string>
+    <string name="create_account">Create Account</string>
+    <string name="what_s_your_email">What\'s your email?</string>
+    <string name="confirm_this_email">You\'ll need to confirm this email later.</string>
+    <string name="next">Next</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="use_8_characters">Use at least 8 characters.</string>
+    <string name="what_date_of_birth">What\'s your date of birth?</string>
+    <string name="age_requirements">Sorry, you don\'t meet Symphonia\'s age requirements.</string>
+    <string name="what_s_your_gender">What\'s your gender?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="create">Create</string>
+    <string name="this_appears">This appears on your Spotify profile.</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="we_ll_send_a_link">We\'ll send a link to your email that will log you in.</string>
+    <string name="get_link">GET LINK</string>
+    <string name="check_email">Check your email</string>
+    <string name="we_will_send">We sent you an email with a link that will log you in at</string>
+
+    <string name="service_terms">By creating an account, you agree to Symphonia\'s
+        <a href="https://www.spotify.com/eg-en/legal/end-user-agreement/">Terms of Service</a></string>
+    <string name="privacy_policy">To learn more about how Symphonia collects, uses, shares and protects your
+        personal data please read Symphonia\'s
+        <a href="https://www.spotify.com/eg-en/legal/privacy-policy/">Privacy Policy</a></string>
+
+    <string name="search">Search</string>
+    <string name="browse_all">Browse all</string>
+    <string name="your_top_genres">Your top genres</string>
+    <string name="Artists_songs_albums_search">Artists,songs or albums</string>
+    <string name="Find_the_music_you_love">Find the music you love</string>
+    <string name="Search_for_artists_songs_playlists_and_more">Search for artists, songs, playlists, and more</string>
+    <string name="See_all_artists">See all artists</string>
+    <string name="See_all_songs">See all songs</string>
+    <string name="See_all_playlists">See all playlists</string>
+    <string name="See_all_albums">See all albums</string>
+    <string name="See_all_genres_and_modes">See all genres and modes</string>
+    <string name="See_all_profiles">See all profiles</string>
+    <string name="Clear_recent_searches">Clear recent searches</string>
+    <string name="Recent_searches">Recent searches</string>
+    <string name="todo">TODO</string>
+    <string name="settings">Settings</string>
+    <string name="wrong_password_or_email">This email and password combination are incorrect</string>
+    <string name="Not_connnected">Not online</string>
+    <string name="check_internet">Check your internet connection</string>
+    <string name="artist_search_empty_state">Find your favorite artists</string>
+    <string name="Artist">Artist</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Song">Song</string>
+    <string name="Genre">Genre</string>
+    <string name="Album">Album</string>
+    <string name="Profile">Profile</string>
+    <string name="not_found_state_1">Couldn\'t find</string>
+    <string name="not_found_state_2">Try searching again or using a different spelling or\nkeyword.</string>
+    <string name="made_for_you_by_spotify">made for you by spotify</string>
+    <string name="already_exists_email">This email is already connected to an account</string>
+    <string name="ok">OK</string>
+    <string name="go_to_login">GO TO LOGIN</string>
+    <string name="close">CLOSE</string>
+    <string name="try_premium">Try Premium</string>
+    <string name="enjoy_many_features">Enjoy Many Features</string>
+    <string name="get_premium">GET PREMIUM</string>
+    <string name="premium_terms">Only EGP 49.99/month. Cancel anytime.
+    <a href="https://www.spotify.com/eg-en/legal/premium-promotional-offer-terms/">Terms and conditions</a>
+    apply </string>
+    <string name="spotify_free">Symphonia Free</string>
+    <string name="current_plan">CURRENT PLAN</string>
+    <string name="free">FREE</string>
+    <string name="premium2">PREMIUM</string>
+    <string name="ad_break">Ad breaks</string>
+    <string name="ad_free_music">Ad-free \n music</string>
+    <string name="with_locked_songs">With locked \nsongs</string>
+    <string name="play_any_song">Play any \nsong</string>
+
+    <string name="See_More">See More</string>
+
+    <string name="New_Releases">New Releases</string>
+    <string name="Charts">Charts</string>
+    <string name="Made_for_you">Made for you</string>
+    <string name="Concerts">Concerts</string>
+    <string name="Arabic">Arabic</string>
+    <string name="Mood">Mood</string>
+    <string name="Decades">Decades</string>
+    <string name="Gaming">Gaming</string>
+    <string name="Workout">Workout</string>
+    <string name="Focus">Focus</string>
+    <string name="Party">Party</string>
+    <string name="Dinner">Dinner</string>
+    <string name="Jazz">Jazz</string>
+    <string name="Soul">Soul</string>
+    <string name="Kids">Kids</string>
+    <string name="Blues">Blues</string>
+    <string name="Punk">Punk</string>
+    <string name="Travel">Travel</string>
+    <string name="Pop">Pop</string>
+    <string name="HipHop">Hip-Hop</string>
+    <string name="Rock">Rock</string>
+    <string name="Sleep">Sleep</string>
+    <string name="Chill">Chill</string>
+    <string name="Followers">followers</string>
+    <string name="Search_for_anything">Search for artists, songs, playlists, and more</string>
+    <string name="No_result_found_for">No result found for </string>
+    <string name="help_to_search">Please check you have the right spelling,or try differant keywords.</string>
+    <string name="choose_3_artists">Choose 3 or more artists you like.</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="why_skip">Choosing artists just takes a minute, and will make Symphonia better for you.</string>
+    <string name="skip">SKIP</string>
+
+    <string name="album_tracks_placeholder" translatable="false">A\'alk Nedem • Enta Maghroor • Yetalemo • Kont Fe Baly • Kol Hayaty • Taali • Hadded • Ya Agmal Eyoun (Remix) • العالم الله • Ana Gheir</string>
+    <string name="shuffle_string">Listen in shuffle</string>
+    <string name="shuffle_button">Shuffle Play</string>
+
+    <string name="add_to_like_playlist">added to liked playlist</string>
+    <string name="remove_from_liked_playlist">removed from liked playlist</string>
+    <string name="remove_from_playing_list">removed from playing playlist</string>
+    <string name="return_to_playing_playlist">return to playing playlist</string>
+    <string name="do_you_want_to_log_in_instead">Do you want to log in instead?</string>
+    <string name="choose_artists">CHOOSE ARTISTS</string>
+    <string name="track_image_for_playbar" translatable="false">track image for playBar</string>
+    <string name="cant_play">can\'t play</string>
+    <string name="error">Error</string>
+
+    <string name="promoted_premium">Promoted Premium</string>
+    <string name="symphonia_premium">Symphonia Premium</string>
+    <string name="locked_songs">Locked Songs?</string>
+    <string name="no_worries">No Worries.</string>
+    <string name="listen_ad_free">Listen to your locked music,\nand listen ad-free.</string>
+    <string name="monthly_subscription">Monthly subscription fee applies after. Terms and conditions apply.\nOpen only to users who haven\'t already tried Premium</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="liked">Liked</string>
+    <string name="like">Like</string>
+    <string name="hidden">Hidden</string>
+    <string name="track_is_locked">this song is locked \n to unlock get premium</string>
+    <string name="started">Started</string>
+    <string name="preparing">Preparing</string>
+
+
+    <string name="Edit_Profile">Edit Profile</string>
+    <string name="See_all">See all</string>
+    <string name="Public_playlists">Public playlists</string>
+    <string name="follow">FOLLOW</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="Following">Following</string>
+    <string name="playlists">playlists</string>
+    <string name="like_all_songs">Like all songs</string>
+    <string name="go_to_full_album">Go to full Album</string>
+    <string name="don_t_play_this_artist">Don\'t play this artist</string>
+    <string name="add_to_home_screen">Add to Home Screen</string>
+    <string name="hide_this_song">Hide this Song</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="view_artist">View Artist</string>
+    <string name="share">Share</string>
+    <string name="report_explicit_content">Report Explicit Content</string>
+    <string name="show_credits">Show Credits</string>
+    <string name="belongs_to_different_user">This account belongs to different user type</string>
+    <string name="checking">Checking..</string>
+    <string name="remove_album_snackbar_text">Removed from Your Library.</string>
+    <string name="add_album_snackbar_text">Added to Your Library.</string>
+    <string name="thanks_for_reporting">thanks for reporting.</string>
+    <string name="more_for_you">More\nFor You</string>
+    <string name="performed_by">Performed by</string>
+    <string name="written_by">Written by</string>
+    <string name="produced_by">Produced by</string>
+    <string name="source">source</string>
+    <string name="report_error">Report Error</string>
+    <string name="view_profile">View Profile</string>
+    <string name="welcome">Welcome: </string>
+    <string name="sign_up_success">Signed up successfully</string>
+    <string name="failed">Failed</string>
+    <string name="free_account">Free Account</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="undo">UNDO</string>
+    <string name="un_following_message">OK, got it.</string>
+    <string name="log_out">Log out</string>
+    <string name="logged_as">You are Logged in as&#160;</string>
+
+    <string name="insongs">in songs</string>
+    <string name="inplaylists">in playlists</string>
+    <string name="ingenres">in genres and modes</string>
+    <string name="inprofiles">in profiles</string>
+    <string name="inartists">in artists</string>
+    <string name="inalbums">in albums</string>
+
+    <string name="WhatsApp">WhatsApp</string>
+    <string name="facebook">Facebook News Feed</string>
+    <string name="messenger">Messenger</string>
+    <string name="SmS">SMS</string>
+    <string name="copylink">Copy Link</string>
+    <string name="more">More</string>
+    <string name="open_email_app">OPEN EMAIL APP</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="save">Save</string>
+    <string name="token_is_expired">Token is expired</string>
+    <string name="invalid_email">invalid Email</string>
+    <string name="retrieving_data">Retrieving data</string>
+    <string name="failed_login">Failed logging in</string>
+    <string name="no_tracks">No Tracks Found</string>
+    <string name="pay">Pay</string>
+
+    <string name="firebase_id">symphonia-f4a70</string>
+    <string name="check_mail_activation">Check mail for activation message</string>
+    <string name="main_text_place_holder">Main text is here.</string>
+    <string name="description_text_placeholder">Description text is here.</string>
+    <string name="notifications">Notifications</string>
+    <string name="playlist_not_playing">"playlist not playing now "</string>
+
+    <string name="facebook_app_id">820827945085597</string>
+    <string name="fb_login_protocol_scheme">fb820827945085597</string>
+    <string name="added_liked_songs">Added to liked songs.</string>
+    <string name="removed_liked_songs">Removed from liked songs.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

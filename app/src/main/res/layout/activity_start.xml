@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layout"
+    tools:context=".Activities.User_Interface.StartActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_symphonia3" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:baselineAligned="false"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome_to_symphonia"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Listener"
+        android:onClick="openListener"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_curved_green"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:text="@string/listener"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Artist"
+        android:onClick="openArtist"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Listener"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_curved_red"
+        android:fontFamily="sans-serif"
+        android:text="@string/artist"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

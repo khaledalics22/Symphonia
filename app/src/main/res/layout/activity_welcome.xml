@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activities.User_Management.WelcomeActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_symphonia2" />
+
+    <ProgressBar
+        android:id="@+id/progress_welcome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:baselineAligned="false"
+        android:fontFamily="sans-serif"
+        android:text="@string/millions_of_songs"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="44sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="10dp"
+        android:text="@string/free_on_symphonia"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="44sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup"
+        android:onClick="openSignUp1"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_curved_green"
+        android:fontFamily="sans-serif"
+        android:text="@string/sign_up_free"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_below="@id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_transparent"
+        android:fontFamily="sans-serif"
+        android:onClick="openLogin"
+        android:text="@string/log_in"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "754151405785",
+    "firebase_url": "https://symphonia-272211.firebaseio.com",
+    "project_id": "symphonia-272211",
+    "storage_bucket": "symphonia-272211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754151405785:android:e77bb69896338e3c39e6c8",
+        "android_client_info": {
+          "package_name": "com.example.symphonia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754151405785-tnb84fncf9tinbi46ipjmi21n2kli8hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFfHqYgN-P-rmDnTAc3C8aNsz7dXhZCa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754151405785-tnb84fncf9tinbi46ipjmi21n2kli8hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

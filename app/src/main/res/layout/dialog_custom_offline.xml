@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/you_are_not_online"
+        android:id="@+id/text_dialog"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorGradient2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/text_dialog"
+        android:text="@string/check_internet"
+        android:id="@+id/text_dialog2"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorGradient2"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/ok"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_dialog"
+        android:layout_below="@+id/text_dialog2"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_curved_green"
+        android:layout_centerHorizontal="true"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

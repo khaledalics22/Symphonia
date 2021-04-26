@@ -1,0 +1,2538 @@
+commit ca368263dd93eda76f27fcc20ee49de42bc06717
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Jun 11 13:29:56 2020 +0200
+
+    fix Ads problem
+
+commit d3551eb7b2644d98bc2af50373a34fb7d19bc6db
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Jun 11 05:26:41 2020 +0200
+
+    finish function documentation
+
+commit 64eeb04081af8d3df99cf5dbbfb5fcdda70d9a0f
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Jun 11 03:50:39 2020 +0200
+
+    fix conflicts
+
+commit 85cbd681522404a629725768b5d78979fa3f46ef
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Jun 11 02:58:09 2020 +0200
+
+    upgrade notifications intent
+
+commit 707c383dfdfa3a6d67ff10878ed3098ce4b8342f
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Jun 11 02:34:21 2020 +0200
+
+    finish widget
+
+commit 05b8228393d68dd4ce69188ead9b1e4b0e68befd
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Jun 11 00:36:02 2020 +0200
+
+    upgrade notification date format
+
+commit a92d254455c7bc3f4dc596db774fafe5b9b0e088
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 10 23:08:54 2020 +0200
+
+    add documentation
+
+commit 7efc1d866a90622e0a7191603593a15349ca8e53
+Merge: 963f584 0d997e5
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 10 21:01:10 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit 963f584786349bebc75750055fa862e10bd12ac9
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 10 20:34:32 2020 +0200
+
+    add unit test
+
+commit 0d997e561a89306473a2edc6400f0a41aa640b69
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Jun 10 19:44:57 2020 +0200
+
+    handle error in loading albums
+
+commit 4544364e496b9d8c9b650c8ba47ea2c6e28d22cd
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 10 05:12:56 2020 +0200
+
+    finish function documentation
+
+commit 41fdc6d7d2ab08e534c46a088d954b882f4f0a56
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 10 04:18:06 2020 +0200
+
+    Open album from notification
+
+commit 43a66af2b2f915a89093c04d16568ada2a312dbb
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Jun 10 03:32:15 2020 +0200
+
+    finish album fragment
+
+commit 83dd101e17e0ba0bfc68d867ebd3d84d9c472274
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 10 03:17:07 2020 +0200
+
+    add code comments
+
+commit 52398dbce139e4f903aaa1300e6a6c42bd9d9569
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Wed Jun 10 01:38:47 2020 +0200
+
+    add setting of track in play activity and share track
+
+commit 6b63136e7c7e66ff3978256c799821fc6a2b8410
+Merge: 115cafb 9899bef
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 10 00:37:23 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit 115cafbb0457e043a3297cd2709f89105dfcc14a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 10 00:34:23 2020 +0200
+
+    add mock service for artist album's track
+
+commit 9899bef54391364a3788f7d403e2699a59c6e22c
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Tue Jun 9 23:27:17 2020 +0200
+
+    handle play button when return back to mainActivity
+
+commit 6f8a763010f9df68dcb40b64bb54b476ddbea72c
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Jun 9 22:31:34 2020 +0200
+
+    getting tracks in playlists
+
+commit 262f43eea7b85acca55f75f35649832f9f180c90
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Tue Jun 9 22:25:50 2020 +0200
+
+    handle back button pressed and current playing track
+
+commit 679c17dc0e0583182bad7983b79e4d494dde17e7
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 9 22:03:03 2020 +0200
+
+    add notifications date and time
+
+commit 723c565ae404d5ff89385ba378531e320a7865c8
+Merge: 3443fb3 2980842
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Jun 9 21:37:41 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit 3443fb3c8bec45660fcecbde9ab5fc4a42c04364
+Merge: 9ce964b be6e137
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Jun 9 21:37:26 2020 +0200
+
+    fix conflict
+
+commit 29808420b84f3cac81e9b503afc265648d7d2c7a
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Jun 9 21:25:46 2020 +0200
+
+    handle playlists opening
+
+commit 9ce964bb5b525b53ef9f5c8249de75e34dd98163
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Jun 9 21:17:37 2020 +0200
+
+    fix layouts of profile
+
+commit be6e13788adeea26c58b52e4b976f9d553acd4cc
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 9 19:21:28 2020 +0200
+
+    Premium validations
+
+commit 341facd54d355663806ef12c71bce3830bd456ca
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 9 17:35:23 2020 +0200
+
+    Add app hash key
+
+commit 5527044c4b48bf9a51fba094780fc5bae57cda3b
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Jun 9 08:37:18 2020 +0200
+
+    add songs to playlists added
+
+commit d57de6047fb35ed968138414982f0e611f70ed51
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Jun 8 23:13:19 2020 +0200
+
+    Set facebook permissions
+
+commit 0d35b3f4849cbfa39d3a88903f808cdb56c88846
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Jun 8 22:52:38 2020 +0200
+
+    finish liked songs fragment
+
+commit 2dc694d5f2a17f15746cd1983afac27a7b3de1a1
+Merge: 20f5056 42e8870
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Jun 8 22:31:16 2020 +0200
+
+    fix conflict after merge
+
+commit 20f505665be0ad7e65383b11e081c6f066bd71e2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Jun 8 22:10:39 2020 +0200
+
+    delete and rename track
+
+commit db795924fec3c85342b334a08dab9ffe1981f5f1
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Jun 8 21:23:00 2020 +0200
+
+    get album's tracks
+
+commit 42e8870b76c843499bf2bc452468bd5c6fc909cd
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Jun 8 16:42:58 2020 +0200
+
+    hanlding some exceptions
+
+commit e60076deb894337c2c9e15fff16db62a468f8c20
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Sat Jun 6 17:40:35 2020 +0200
+
+    handle opening playlist from Notification Histroy activity
+
+commit cfd052e06e3cbe5a69176916ecb1981ab4c4b47b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Jun 4 23:23:38 2020 +0200
+
+    Pagination for facebook login
+
+commit a47d9f5f3f53bc2795e65a325b076fb09324b827
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 22:55:19 2020 +0200
+
+    add default image for user in profile
+
+commit abe587e2140ac6cdf12d52fff0da5bbd31d68fef
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 22:39:01 2020 +0200
+
+    fix glide in setting fragment
+
+commit a4f153f58cc359e959f4f2983bc5041051dcdfff
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 22:27:56 2020 +0200
+
+    fix bug in setting fragment
+
+commit 64ae5f835d49916583b3ee8d29b2966aba420c5d
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 22:13:23 2020 +0200
+
+    fix bug in glide in settings
+
+commit 672f22f775a1acc330ab0b560c4a58a46c9bc91e
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 21:59:34 2020 +0200
+
+    add glide to download facbook image in fragment profile and settings
+
+commit 80bd430124975a4746b365b23e581f245d86b1e7
+Merge: cd53ac5 cd95b2a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 20:00:37 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit cd53ac5bde78bc3b175ab67e8a7dca0191f40da3
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Jun 4 20:00:23 2020 +0200
+
+    add notification's intent to fragment profile
+
+commit cd95b2a9ef0ad8d1fff29003051bc5105fbf4d63
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 3 20:09:25 2020 +0200
+
+    Add Glide library dependency, fix bug in notifications history
+
+commit a395bea1a7a20de3f2f21d681229f4a75f744405
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 3 17:08:07 2020 +0200
+
+    Get user's data from facebook and save it
+
+commit 246758a8acd570e7e6404c8ce723ce7f93daf56e
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 3 14:53:44 2020 +0200
+
+    finish delete and rename albums
+
+commit d35cccbe7fcba27878b1cba174632a263d80ef9a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 3 14:52:48 2020 +0200
+
+    finish edit profile
+
+commit d43fd48ba616d22f93072903eb02182440a50bc3
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Jun 3 14:51:55 2020 +0200
+
+    finish getting and creating artist's albums
+
+commit ab5276fc652683d377d2db63db9b3315fa085ab9
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Wed Jun 3 08:15:50 2020 +0200
+
+    mock service handled
+
+commit 7741c2a026ddea31871b5917906eb072fe1d1fac
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Jun 3 00:31:41 2020 +0200
+
+    Connect facebook back-end
+
+commit cc5bf9c8749fdb51926f1b99f8bc99763c6803a0
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Tue Jun 2 22:35:15 2020 +0200
+
+    openning recently played before closeing the app
+
+commit 25c42622808394977fcf7bd5f4dfdb6f844ac0b8
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 2 22:33:23 2020 +0200
+
+    Login with facebook android
+
+commit 82ec4fb22d9c7c7e23add85f36eed2c9488e9c23
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 2 18:29:13 2020 +0200
+
+    Handle intents when click notification
+
+commit b4612a1cb3a756f7760e04d46fbe18a86ca3cc61
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Jun 2 17:05:33 2020 +0200
+
+    Add Notifications Icon
+
+commit ff721435fb21c542fba2e43ddb1715b159206199
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Mon Jun 1 09:00:09 2020 +0200
+
+    handle play bar notification pause and play
+
+commit f119e0c6b0bf7f6d39cafa9cd6cde4e030031063
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Mon Jun 1 08:23:09 2020 +0200
+
+    handle track settings in playlist
+
+commit 9ceda26d99209997c09962984e3db4b8a5a086b7
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Mon Jun 1 07:44:04 2020 +0200
+
+    added notification play bards
+
+commit ee2fc2fea937ed427b6f3b6c86c2490d3a262f9d
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Sun May 31 23:58:37 2020 +0200
+
+    playlist controller, handle hidden and locked tracks
+
+commit b4439ede42334cfdaecba7ee80a286126805baa7
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Sun May 31 20:50:04 2020 +0200
+
+    add to favourite and remove from favourite requests and playbar scrolling
+
+commit 365137faf1c0b2daeec463920e050ba7e5ae5635
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun May 31 18:14:19 2020 +0200
+
+    Classify notifications history
+
+commit 7818c385386495ee73ace3585e6abd611e1e2d63
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Sun May 31 08:09:17 2020 +0200
+
+    handle queue play,next and previous with UI in playlist fragment
+
+commit 86fe58e390d9e7c3a3551c8c6e5a36b451753e51
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat May 30 18:19:32 2020 +0200
+
+    Notificiations History log
+
+commit 4204344f43614412fa257ffea1be91e7d0863672
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat May 30 16:47:52 2020 +0200
+
+    Finish Apply premium
+
+commit a2197d96ebe915224d8c90aa2b1b6d77d2cdba8a
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri May 29 21:09:47 2020 +0200
+
+    Premium promotion
+
+commit ddee28a320fa95ebddec1dd8e44163575e5e189c
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri May 29 17:44:14 2020 +0200
+
+    set firebase notificataions
+
+commit 93a8f488efee3942df1d3882fdd26b4dfb4e16fb
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri May 29 00:49:42 2020 +0200
+
+    notifications history mock service
+
+commit 9b2ca797b0fc285227a95a512705fceaa7e590cf
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu May 28 19:31:49 2020 +0200
+
+    add premuim link, notifications history starting
+
+commit 886a2920632efb11fb08170122ba99656ebbcbd4
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Apr 24 17:51:57 2020 +0200
+
+    finish create playlist
+
+commit 591e4f4ecfcb70f355c54d114bbe42a544c69c50
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 24 15:56:35 2020 +0200
+
+    Apply Artist
+
+commit d7bef050a5287f31e800d3e1026cf3fab4364b04
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 24 02:16:02 2020 +0200
+
+    add app firebase
+
+commit 9464e58d4def3ac1bff91508810ce68244d957fe
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Apr 23 03:02:54 2020 +0200
+
+    finish extra songs in liked songs fragment
+
+commit 0a0ae8b768cb8f46d06349cd3981b97d6622ed36
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Wed Apr 22 23:50:31 2020 +0200
+
+    prepare premium apply
+
+commit 3464fc29e2e2086c8b02739635c8edfe8e7950f7
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 22 23:12:31 2020 +0200
+
+    finish liked songs rest api and number of liked songs rest api and mock services
+
+commit 948e5168a8dcfaa63ddfddf070b57e12778edd14
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 22 21:18:31 2020 +0200
+
+    finish liked songs and playlists mock services
+
+commit cf9d09bf3dbbd662485cb27a5a67eff76a0f7a22
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Apr 22 15:29:22 2020 +0200
+
+    handle progress bar and duration of tracks in play activity
+
+commit f6513aad8f1c94cddca041046ab34cd43cdb1e48
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 21 02:09:18 2020 +0200
+
+    finish library playlists rest api
+
+commit b7ed995aa3ced88e2fd56ef9a638113d9f4bdf43
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Apr 20 20:47:02 2020 +0200
+
+    finish albums library rest api
+
+commit e1baaf51fdd4dca631ff5a7637183a472e62d308
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Apr 20 18:41:47 2020 +0200
+
+    finish search artists rest api
+
+commit 5f3cdfdd7df0f651eb8c3e88c1e439f5ed893526
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Apr 20 17:17:02 2020 +0200
+
+    Add Login with facebook
+
+commit d7f075b3638cd4988d68f5c87c5e15434cac6568
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Mon Apr 20 11:43:35 2020 +0200
+
+    add progress bar in playactivity play button
+
+commit 446fccc55601c1b9d260118cecf44aa3ed8ac5f1
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Apr 20 03:34:50 2020 +0200
+
+    prepare login with facebook
+
+commit d3248bb0fbab55eec0e4fa4727be4e7d5bf4c853
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Apr 19 23:40:29 2020 +0200
+
+    add pagination to forget password
+
+commit af5700d1157b8ab5b7103b00f94dfe1a4ae98cbe
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Apr 19 23:15:16 2020 +0200
+
+    Reset password
+
+commit 633ad522579cec50117a0a1e529b8904c8fb4648
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Apr 19 21:56:07 2020 +0200
+
+    preparing tracks preview activity
+
+commit 313525a6d2e9478681aab6d79f19b58468290d40
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Apr 19 18:02:08 2020 +0200
+
+    finish library artist rest api, add singleton retrofit, start artist fragment layout
+
+commit 0c5a520104318d2d4919969bf0633d0dc443999a
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Apr 19 14:51:26 2020 +0200
+
+    Forget password linked with website and done
+
+commit 2a4f6864b123e32d95774ea570ca85fdc38051c2
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 19 03:42:34 2020 +0200
+
+    handle play btn in playbar while loading, and handling playing all tracks
+
+commit 5cccd5ef0b6b44c9468fa8b97d90d05de1e70885
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 18 19:07:25 2020 +0200
+
+    implement Forget password: REST API
+
+commit 2bf0476296b751d7978d57c3c78414c1c6c78f7b
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 15 21:22:21 2020 +0200
+
+    finish library artists rest api
+
+commit 755a1a1dc1f478955ddaf0e27a421f7f7d61eb4c
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 15 16:15:11 2020 +0200
+
+    handling network failure in add artists
+
+commit 1fc7b5a422242308a74b3439d79a5b481975ecad
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Apr 12 01:40:03 2020 +0200
+
+    fix a bug in exiting from main
+
+commit e4a1b9f7d44945f2d7893d13fc565a6d39ff62ca
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 23:59:15 2020 +0200
+
+    Function documentatation
+
+commit 00cb67e6aa91d06f4bd3cc1040708f94e6589a27
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 11 23:49:10 2020 +0200
+
+    fix bug in unit test
+
+commit cf04a617f5fa9062f881192945ad464439cc7ec1
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sat Apr 11 23:43:35 2020 +0200
+
+    adding some functions to unit test
+
+commit dec183a62ff6790ccb1ae3bb249e88e439c72528
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Apr 11 23:30:17 2020 +0200
+
+    edit unit test of utils setTrackInfo
+
+commit 3bbe709e5286005e6d834db83ffc647c6cc4754b
+Merge: 5587c54 b84ec5f
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 11 23:27:22 2020 +0200
+
+    fix conflict
+
+commit b84ec5fcc90e949101e253e7027bab0ca182b521
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Apr 11 22:49:16 2020 +0200
+
+    add unit test of setTrackInfo in Utils
+
+commit 5587c54a94ab3c84917b4f5fade0a327a5ba7776
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 11 22:47:03 2020 +0200
+
+    add documentation/add unit test
+
+commit 0e8cec34f0621283be778847fbea87560ff8d3a8
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sat Apr 11 22:18:27 2020 +0200
+
+    finish function documentation, arabic translation and unit testing
+
+commit 2bde049c0bf4680f926831643d5b882826507709
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Apr 11 21:23:06 2020 +0200
+
+    add unit test and arabic translation
+
+commit f4c389a720aa138c6968223844e8f3b9fb77f431
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 21:05:38 2020 +0200
+
+    Utils:Unit test
+
+commit 67beb61b54426dc2a443b632e90f76a5f376a406
+Author: Hossam Alaa <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 19:36:41 2020 +0200
+
+    Update README.md
+
+commit 18c440422b3018eedf27cec2e2fc7a3bcb3abd92
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 19:15:39 2020 +0200
+
+    Add translations
+
+commit 3ecdf0c24db3f4b22019d03c7f4eebc5b7a921d3
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Apr 11 18:41:15 2020 +0200
+
+     add documentaion
+
+commit 9d568a56aa5498a3ff0110661c9e5b610d7e218e
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 18:01:52 2020 +0200
+
+    Sign up:full coverage unit test
+
+commit 4291d9c6cb31e5a4fade54c876995aab27d42d0b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 17:34:31 2020 +0200
+
+    Unit test modifications
+
+commit e480cc46cb091997f3d2db2c92793cd4da0ca3fa
+Author: Hossam Alaa <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 17:22:53 2020 +0200
+
+    Update README.md
+
+commit 20f95cfa227e73cdb259baa41d079b639c9116a5
+Author: Hossam Alaa <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 17:05:40 2020 +0200
+
+    Update README.md
+
+commit 142e5c1f7483978234adbf09b13543c4029701bc
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 16:44:35 2020 +0200
+
+    Utils unit test
+
+commit 15971e8352ca727a986992fba3fa506ee16f593e
+Author: Hossam Alaa <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 02:40:49 2020 +0200
+
+    Update README.md
+
+commit 7b0601e1d65130c14cabb44a2e250bc7049d2eca
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 11 02:36:59 2020 +0200
+
+    Function documentation for my current progress
+
+commit 3f6b0b8e4b3511699115390799b85c4352c8df52
+Author: Hossam Alaa <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 10 23:44:02 2020 +0200
+
+    Update README.md
+
+commit 0f8132d9d04e90bab59246ce0030d600c94ea807
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Apr 9 07:26:50 2020 +0200
+
+    remove toasts
+
+commit d72e7cc291fc1bbfc62637fc0c12700dc8dda6ea
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Apr 9 06:31:15 2020 +0200
+
+    handle settings default photo
+
+commit 9e757d60e3647d4349e065ce3d3e1a94bc182c48
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Apr 9 06:10:30 2020 +0200
+
+    fix a bug in exiting main
+
+commit 053fd2af83d3ec2667bf1a044561900d6cbcdce3
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Apr 9 05:50:16 2020 +0200
+
+    fix sign up bug:mock service
+
+commit 558a32cccac05a31e9b42766c5becc7938d689b6
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 05:14:18 2020 +0200
+
+    handle playing track in mock
+
+commit cd83f9a8d20773e45ca366cada8290b8b4077a24
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 05:08:10 2020 +0200
+
+    handle progress par in mock test
+
+commit 2910d172ddd1293cb1514d0949990b0181b21cbd
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 04:54:24 2020 +0200
+
+    handle seekbar when playing next
+
+commit 914ff80b2dbaa909e0df389c2a50d0c069d9dcf4
+Merge: ce08b0d c2e7940
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 04:45:41 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit ce08b0dbf570cf2f790c3427ed624bf428dc2b23
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 04:45:19 2020 +0200
+
+    add better default image for followers
+
+commit c2e79404bd9366a010e6a4a65f793fdb044f3c40
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 04:34:32 2020 +0200
+
+    handle progress bar when no tracks
+
+commit 56667acd6a72155bc52a2e1f9db332852462a24a
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 04:16:18 2020 +0200
+
+    handle seekbar and add pagnitation
+
+commit 9b5b4a8324ab28b6f78e973eb519a05b746ebb94
+Merge: c2ebe79 4ef18db
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 03:51:43 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit c2ebe797fe99fa431582919ee20cb15584286fbb
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 03:51:08 2020 +0200
+
+    set a better default profile image
+
+commit 4ef18db341f235ed2d5d6f4b65d610492032b396
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 03:32:53 2020 +0200
+
+    handle playbar image
+
+commit bda8415ad52fe364a608b5b9aeeebfd03afc4b46
+Merge: ef9c924 c34ffa0
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 03:27:34 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit ef9c924db9cda9b1869d1cc2d276656ebdbdb709
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 03:27:23 2020 +0200
+
+    fix image in profile fragment
+
+commit c34ffa0e193378990f1892a83505876c96c6e3ae
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 03:23:57 2020 +0200
+
+    handle background and track image in play activity
+
+commit 818d7bb1676d3d943f07864ce82a3c5db30a591e
+Merge: d9d1a66 b9809ce
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 03:22:54 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit b9809ced0d3a4acd9a8105e6130dcd5672d31efb
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Apr 9 03:08:37 2020 +0200
+
+    fix some bugs
+
+commit d9d1a66f43300bca104bf5bb0355d0aa0a0883ab
+Merge: 63e3773 4855038
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 03:01:15 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit 48550381ae2d2b2042a29c89daec79a231ef4bcf
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 02:37:24 2020 +0200
+
+    fix button in profile fragment
+
+commit 1fc9ebb1123a74b0ee92bf760e4fc8b37f88ff2f
+Merge: 92441b7 ca69d6e
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 01:44:26 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 92441b70662e150d942bd240c92f1408317fc9b2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 01:44:07 2020 +0200
+
+    fix getting profile image by url
+
+commit ca69d6e96b8310bade97417be452b337165fc878
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Apr 9 01:25:24 2020 +0200
+
+    fix autosizing
+
+commit 63e3773c31b04a3f13c45e6ba6829530894389fc
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Apr 9 01:24:58 2020 +0200
+
+    handle background of playlist fragment at RestApi case
+
+commit 5d0b101c1a58f3f9e434a243f92b0f2ca0e8d960
+Merge: b47d927 77e97f2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 00:47:48 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit b47d927d720b6f7b10136d43d6886e21990859d6
+Merge: d7d4805 cec5f31
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 9 00:47:22 2020 +0200
+
+    fix conflict/fix text autosizing
+
+commit 77e97f25d38f3024e0f775c8f85c4f21a8ead92d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Apr 9 00:29:23 2020 +0200
+
+    fix online track bug
+
+commit d7d48054c87ca80431681f643c41ab1dd984fe29
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Apr 8 23:56:47 2020 +0200
+
+    add translation
+
+commit ddf76d14a20632fdc885a1234889adcebde99aca
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Apr 8 22:56:42 2020 +0200
+
+    add edit profile layout
+
+commit cec5f31be5ee509f21ce7e00c479917d08c0bf77
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Apr 8 22:41:22 2020 +0200
+
+    fixing streaming track,dosn't work yet
+
+commit 3a39c8e8895e6c147afffca98527d41c06201e01
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 8 21:48:13 2020 +0200
+
+    handle exiting main activity
+
+commit 95039aedabe80beb74b59ad4d51b9fda139c8b51
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Apr 8 21:19:45 2020 +0200
+
+    add get tracks of playlists RestAPI
+
+commit 37ce85a46340be20d9667564b8d53a9cb5a150b0
+Merge: 957f868 0fb18ee
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Apr 8 20:56:56 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 957f86885f7c2b4be0d747ae4da7ea5b2f7ec4cd
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Apr 8 20:54:26 2020 +0200
+
+    finish most of profile rest api
+
+commit 0fb18ee761a22cc7345dcdfab1b7d388a8a91247
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Apr 8 20:41:53 2020 +0200
+
+    finish add artists Api requests
+
+commit c863712905467105f44819c76554d33726d052a9
+Merge: 884054c a74eb2b
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 23:56:47 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 884054cc1c606fbfe9ac2f8af784897fe1a5b57b
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 23:54:29 2020 +0200
+
+    improve preformance of search
+
+commit a74eb2bca2511a18b60dba6e6e2714793f2ea477
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 23:48:18 2020 +0200
+
+    remove some debug lines
+
+commit 7eb93d1f458b5269960ca7b69362ff39e5f9c841
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 23:41:30 2020 +0200
+
+    Handle save account at sign up
+
+commit 094c36be37ccfd7f545e857057def8f1de995a75
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 23:39:53 2020 +0200
+
+    fix a bug
+
+commit 61ec8fa227b67db89ea696bdaeab2c327575f2fa
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 23:28:01 2020 +0200
+
+    change bahaviour of on resume in artists fragment
+
+commit d26b575b16a69c8a695bc4fe4cca261f3d8d1527
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 23:20:02 2020 +0200
+
+    fix mock
+
+commit 2f0efaa755904a92770f9d6e20b0af8740006915
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Apr 7 23:12:20 2020 +0200
+
+    fix selecting track
+
+commit fe1e78a502d64f61b6d3faa542e075f45053f12f
+Merge: 73851b5 1517821
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 23:02:28 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 73851b5b1559a67d286a641cd0f22446cc7a52aa
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 23:02:08 2020 +0200
+
+    add image and name for profile settings
+
+commit 1517821294bf91c3b3c0917f56dad61163b0c3a6
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 22:46:25 2020 +0200
+
+    Save account after login
+
+commit bb7ebdf445c70d76f24262261a27b826dd812084
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Apr 7 22:40:25 2020 +0200
+
+    fix showing mock data
+
+commit 8966f49497f089436f46dcf27b6a4d067e1f51d3
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Apr 7 22:25:48 2020 +0200
+
+    add restApi of getRecentPlaylists and RandomPlaylists
+
+commit c4d264b266074e1c1f26ca1f3bf1e821790cdd71
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 22:19:15 2020 +0200
+
+    fix a bug in add artists activity
+
+commit 6fea8380ec1f148bcc94e7e4b0cc2e2decc5e050
+Merge: aa42ee7 45cde64
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 22:05:13 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit aa42ee7c2a618bb63ab8ef33672d0b62a3370f97
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 22:04:36 2020 +0200
+
+    back to mock service
+
+commit 45cde64744a1cbd9d5550f99bc97f7ead042717e
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 21:23:49 2020 +0200
+
+    changing some photos
+
+commit 22c551508e0a1c4a37250f99fc65baa40f1df5d1
+Merge: 9deea61 aa194d3
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 20:16:31 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 9deea61fe7cf0e57ae23163717ed0af9f1f7103d
+Merge: 1d40739 598a3dc
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 20:16:10 2020 +0200
+
+    add some of the api requests
+
+commit aa194d3b81ec64001ae526bee5f788b6a13dd12f
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 18:18:48 2020 +0200
+
+    Add default profile image
+
+commit d1f82bde5d9717a623d40414491a46fec3d5f13b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 17:08:08 2020 +0200
+
+    internet check connection
+
+commit 1d40739c111340b200d64e66ffa527fc7528c955
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Apr 7 16:45:10 2020 +0200
+
+    add some of profile requests
+
+commit 598a3dc644c95c2e4a950f5d68f49279662ee492
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 16:08:03 2020 +0200
+
+    finish add artist rest api functions
+
+commit f7c93c96bb63c2eb1b3f00087d51a7284de54a0a
+Merge: d999179 3bd9049
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 15:49:54 2020 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit d9991793ed5b0d741d371db9c28016022da053cb
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 15:49:43 2020 +0200
+
+    Merge branch 'master' of /home/islamahmed1092/Desktop/Symphonia with conflicts.
+
+commit 3bd9049dc35322ce02ecfa1f71088609a932241a
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 15:42:40 2020 +0200
+
+    intent after sign up
+
+commit 449af1d2cfa0d65c55cd89ab567f3d702e2790c8
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 15:32:34 2020 +0200
+
+    fix bug in sign up: Name length validation
+
+commit 35fa2d9fb2c065ad9967a943f59fdf67f5113f4e
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Apr 7 02:33:59 2020 +0200
+
+    add parsing of random playlists
+
+commit 52de5ddedb6dd3875e15eac4ef5dc2834b6e00fa
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 02:27:57 2020 +0200
+
+    Handle internet connection exceptions:Login/Sign up
+
+commit 802a5313df0ca6698a796f97a4959bf01a885a46
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 01:11:00 2020 +0200
+
+    Opimize Forget password
+
+commit aa31ce35839e7858449c9c7391ad46efa072e711
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Apr 7 00:27:22 2020 +0200
+
+    Sign Up: REST API
+
+commit 3a728d16a5d7e166789b8179a015f19a84513a9e
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Apr 7 00:21:24 2020 +0200
+
+    change icons and add placeholders
+
+commit c5a8e3d848dcfd44867967f0c692541224752f70
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Mon Apr 6 21:07:05 2020 +0200
+
+    add credits in track settings
+
+commit 78eb200dc53187a591852c9687ac8f097d33518d
+Merge: 6f7db55 5b4405e
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 19:52:15 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 5b4405ebc7d669ed71497246af97fde72722c78e
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Apr 6 19:47:13 2020 +0200
+
+    send to main activity
+
+commit 6f7db55f9eff675b8a67bdf373315750d5be81d4
+Merge: 54c3b27 7bd8a36
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 19:36:13 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 7bd8a36c92bef392af21e9fa8ffc0f4ac4bd4b63
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Apr 6 19:32:35 2020 +0200
+
+    link between mock and server
+
+commit 54c3b27b48a7406a31bf4faae0662395bc7fede8
+Merge: 4e79aee 4599b28
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 19:19:31 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 4599b2852d97e8bf0662d4dfcd7ce999cde7814c
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Apr 6 19:08:50 2020 +0200
+
+    handle unfollowing artist
+
+commit 4e79aee9c78aaf0d85bd5b1e23077299213c73e9
+Merge: 74a9c4c 85fbf07
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 18:42:00 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 74a9c4c38886e5f9ba4c253542fb2a3d4c9cdbf7
+Merge: 1c25958 0549295
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 18:41:47 2020 +0200
+
+    add profilr entity/add request for current user profile
+
+commit 85fbf0702e0ba4db97ad55d408d67947b4625c30
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Apr 6 18:16:37 2020 +0200
+
+    Add Progressbar in sign up
+
+commit 1c25958c89d263089dac265e8dee1ac2fe099ee2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Apr 6 16:48:05 2020 +0200
+
+    add new entity category
+
+commit c965b8cdb4a3cd9633f92234ced9f603f5688a43
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Apr 6 15:49:36 2020 +0200
+
+    edit all artist API functions and their usage in the app
+
+commit 0549295aeac4965a74317432caddc80f29212840
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Apr 5 19:59:25 2020 +0200
+
+    Add user type as string
+
+commit 9d789017e1f646a5b5ed267653b8a5007fc786e0
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 5 19:03:52 2020 +0200
+
+    handle reporting ui in settings of track
+
+commit c5161a8f8c40cfe42fdcd6ce4958d1ebb85308f0
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 5 18:43:22 2020 +0200
+
+    handle share in track settings
+
+commit 8e1769a133aeb0dfce042a357db3953819226995
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 5 14:23:53 2020 +0200
+
+    handle like and hide songs in song settings
+
+commit 7e43d5fd6f5eb36937e5538fa9168546b5fef5dd
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 5 02:00:15 2020 +0200
+
+    fix importing ServiceController
+
+commit 04e9dac839b089888276767b6fca9d5560c10910
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Apr 5 01:55:48 2020 +0200
+
+    fetching playlists from api from backend
+
+commit d992c899a1a267de706f1d1cda08c2a3e0d9d0eb
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Apr 5 01:50:22 2020 +0200
+
+    add, remove and check albums mock service, custom snackbar and go to full album functionality
+
+commit b8a2358a54f3eff24312936f15fe92934a1afa08
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Apr 5 00:57:41 2020 +0200
+
+    Email exsistance in signup: REST API
+
+commit 7f8f5a4f8dc70b78b5c79d1f7798affe65d72849
+Merge: 2fad63d 51d4730
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 4 22:14:25 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 2fad63dca5b4fba4404137da60ec3233d9ddca3f
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 4 22:13:21 2020 +0200
+
+    handle click on view profile in settings
+
+commit 51d47301d9045c001b10d1575161f3f17268d426
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 4 17:31:17 2020 +0200
+
+    Add log out shared preferences
+
+commit 6465bac29123a478c98dc2321d26fdaa7866840c
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 4 17:16:33 2020 +0200
+
+    Add shared preferences to save logged user
+
+commit f7437dd74a49428069b4742b6dda23b58fa60e94
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 4 15:17:03 2020 +0200
+
+    User input validation:REST API Login
+
+commit 84463bfb343ca3b2581c443ef9878cf5a1c61f18
+Merge: 748f155 1257127
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 4 15:00:43 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 748f1555a962d9e9c20c372f9e788f06b75b56e2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 4 15:00:27 2020 +0200
+
+    add share actions for profile
+
+commit aabf6b7effa8d5e7d2e2be8efae52dee2a7c8309
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Apr 4 14:34:12 2020 +0200
+
+    add bottomSheetDialog for the profile
+
+commit 1257127750e5a8b9d57c71f7d1c34dbeaf586126
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 4 13:24:59 2020 +0200
+
+    Login: REST API
+
+commit 506c759cdee832e46b61d4f0020b37629bec3d8f
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Apr 4 01:07:09 2020 +0200
+
+    Login API implementation
+
+commit 4a440b75478e54c7a33c01a4c3e596d1ae8348ed
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 3 23:11:11 2020 +0200
+
+    implement most of response interfaces, edit APIs params
+
+commit 54de0df8df4c3f86eaba9b33d469ae0ad835847e
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 3 22:45:20 2020 +0200
+
+    Add login/signup response interfaces
+
+commit c449a7bf1d7623630fc362fb2f06bc1bb945b57d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 3 22:24:56 2020 +0200
+
+    add constant URLs
+
+commit c64752ec60ca7b4cf3cb9ac6c60d8886732a18ad
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Fri Apr 3 21:36:48 2020 +0200
+
+    added example of Http request on getPopularPlaylsit function
+
+commit 6f286fbd2d91c43e0ff76b7976fd6346c69a7d29
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Apr 3 20:11:30 2020 +0200
+
+    handling premium click inside settings
+
+commit da5d1c36fd61ab4511ede21c3b561944bc7e4110
+Merge: 56b9c05 3fa57b6
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Apr 3 19:05:43 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 3fa57b6407bff1338c22cf2ce20be5cb92cf3fd1
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 3 18:54:00 2020 +0200
+
+    Add REST API architecture, volley singleton class, volley package
+
+commit 56b9c0599c26fd74b5a17feb79db7cb664be96f3
+Merge: b0312ba fcce87d
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Apr 3 18:47:58 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit fcce87d0d6173c075020657e5808ebfd853fed7f
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Apr 3 18:41:24 2020 +0200
+
+    styling settings and adding more views to it
+
+commit 2cd8110f1bd45233911821a480731627e2b5f052
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Apr 3 16:50:57 2020 +0200
+
+    Seperate resposnses:Login,SignUp,Premium
+
+commit b0312ba7dd168e8ec10a86ee198e39ff73963e52
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Apr 3 11:48:47 2020 +0200
+
+    fix search bar in search_list fragment
+
+commit 46b21ce49e33636d174ff21887e457c171f4b4cb
+Merge: 3b92ba9 93c3a87
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Thu Apr 2 18:01:10 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit 853ccbc632749b9711b127e11d62f9616648018a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Apr 2 16:06:59 2020 +0200
+
+    fix navigation in search and profile
+
+commit 93c3a87e6d1855e0a83e4ef77e722c59a056ec34
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Apr 2 14:37:55 2020 +0200
+
+    settings fragment with log out added
+
+commit d3f484854a8a4849c03311291d1a2f09baabfdd2
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 29 00:20:24 2020 +0200
+
+    fixing some overdraw
+
+commit 1b6c785c31413ce01dcd1b0f924841f4223702ea
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 23:16:57 2020 +0200
+
+    add translation for settings
+
+commit 3b92ba985bad279de333a30415725f8d991e22e4
+Merge: 3925092 d4ac34d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 22:54:39 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit d4ac34dd0ff3ae564efc731e270d658eb61d7e7b
+Merge: 6280578 8ccefe8
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 22:44:44 2020 +0200
+
+    play button rehandled
+
+commit 392509296ac5106499c08315de29f07faa76c4d9
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 22:41:31 2020 +0200
+
+    Week3 Progress
+
+commit 6280578776662846f652ef45608c599792b89546
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 22:37:05 2020 +0200
+
+    add arabic translation and handle hide button
+
+commit 8ccefe84866bb8dde9dca69565915f04237c414d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 22:04:28 2020 +0200
+
+    Integrate Week3
+
+commit 189a92ebf3c463294d2499b10bd7485354c2a48b
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 20:55:40 2020 +0200
+
+    handle back button pressed
+
+commit da50eff3a6d876344527ce8677c397da5968affa
+Merge: 01ad5cc 349d96a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 20:36:01 2020 +0200
+
+    fix conflict in play activity and arabic strings
+
+commit 01ad5cc2e4b1fca10799199179260d58ff5217ef
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 20:23:32 2020 +0200
+
+    add translation to profile
+
+commit 349d96a88e454e9bf174e3c3630caeb28573cd0b
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 20:14:24 2020 +0200
+
+    playButton add restrictions
+
+commit 726fff8eb13e9e4d96c341bfb782e4fe84b68d11
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 20:09:30 2020 +0200
+
+    add more restriction for changeselcet track
+
+commit d6c820b242d3ad2369a5d15efa3ed4a7f3c7ac35
+Merge: d37fb5d ca07b18
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 19:52:31 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+
+commit d37fb5dadc04ae9dbfc8ba2a6ce33162e0bce23f
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 19:50:33 2020 +0200
+
+    edit listeners of playbar and add arabic translation
+
+commit ca07b18bdc4cecc42cd2ba9c53b29d2e80a799cc
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 19:47:10 2020 +0200
+
+    delete spotify placeholder files
+
+commit c9a4605a28a757a0fa0113f088f5eea25ef67b89
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 19:18:04 2020 +0200
+
+    finish translation
+
+commit 557f2b6cfce76907cd2099df58d4442a5bafee0f
+Merge: 422fedd e2d2690
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 19:17:30 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 422fedd1644cb5b600ce11cb62ece9872992f3b5
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 19:17:18 2020 +0200
+
+    add mock service for profile
+
+commit e2d269060bb0b2f06188710ff09e6754e3b035bc
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 18:13:14 2020 +0200
+
+    Ad-break animation
+
+commit 4a01df586835dae98fd2d5988e6375000b636608
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 17:50:17 2020 +0200
+
+    add restrictions and edit listeners for playbar
+
+commit 9face49d035f0b38d4d5ab9674680058e6d48892
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 16:21:25 2020 +0200
+
+    countdown timer for ads
+
+commit 3e66d505f11943eac098f57a7d9f83ab9843c8f8
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 15:25:54 2020 +0200
+
+    fix add track to favourite
+
+commit bdc1a5fca19966caab734a7736e40127291746d8
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 15:16:40 2020 +0200
+
+    Make Ad scrollable for small phones
+
+commit cacfc26ae817a517ed6e501f567d97fc8c063fe6
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 28 15:01:35 2020 +0200
+
+    handle is locked and if premium and handling playbar with animation
+
+commit 217cb3282238ea3ea40ec39dd0a3e5266b29f432
+Merge: f3d9765 c6938ee
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 13:07:58 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit f3d9765c54a0f55f563750144f328ff5369ea6b0
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 28 13:07:34 2020 +0200
+
+    add profile followers-following layout/handle click on some views
+
+commit c6938eee9cc9d3fd59ca35676f5e4acc0a1f209f
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 02:49:29 2020 +0200
+
+    change theme and gradient for Ad-break
+
+commit fa29b1cb299d115fd241c98fe91987a62464f142
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 28 00:51:53 2020 +0200
+
+    fix image of Ad, scroll in premium
+
+commit 887c85400b55872642166829e14e4ec87db262db
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 27 23:14:28 2020 +0200
+
+    Ad-break styles
+
+commit 84370a8683773ef661d09c91a49770222d50d839
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 27 22:20:21 2020 +0200
+
+    add bottom sheet to albums
+
+commit 779dc7621ff3f864fe9fb5aeef3c4abbb5e31a4f
+Merge: f870894 2d64b67
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 27 20:01:49 2020 +0200
+
+    add profile playlists layout
+
+commit f87089437bd652c48578fb5efcbdd894421233f1
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 27 19:33:46 2020 +0200
+
+    add profile main page
+
+commit 2d64b67afb67c83111356cfe6917de3603ab3aad
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 27 18:32:37 2020 +0200
+
+    ui of Ad-breaks
+
+commit 4d222e57f02afc66918392781a4705e29571895d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 27 15:14:11 2020 +0200
+
+    Premium promotion functionality
+
+commit 05b7c244595fd256aed426ebcf7b2bb9652d8cd1
+Merge: 6612585 3e869c9
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 27 14:20:53 2020 +0200
+
+    Merge branch 'master' of https://github.com/hossamalaa69/Symphonia
+    
+    # Conflicts:
+    #       app/src/main/java/com/example/symphonia/Activities/User_Interface/MainActivity.java
+
+commit 3e869c986f89ee10170fdad2fda2cea6da5917f0
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Fri Mar 27 13:26:40 2020 +0200
+
+    play audio in background and adapt activities to play audio in background
+
+commit c795f4c360957666eb3bb10250ad1a746774771a
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Mar 26 14:36:57 2020 +0200
+
+    fix some bugs and edit artist bottom sheet
+
+commit 2aed0b8a33b461684ae25d52bc099af497984c61
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Mar 25 22:47:33 2020 +0200
+
+    add touch animation to some views
+
+commit acc479ac24a34aecc6d735a7fb879742b4605414
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Mar 24 23:42:53 2020 +0200
+
+    finish the layout of artist bottom sheet
+
+commit 19607fbeca24e31b6da7376d76c380b012af116e
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 24 18:03:52 2020 +0200
+
+    change text height for playlist in fragment home
+
+commit 7c6b99126816764bb40f593c6ebc340bd51672e9
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 24 17:46:37 2020 +0200
+
+    edit text in home fragment
+
+commit 6612585b0b278a6fa66aa635a8027151e9274596
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Mar 24 17:26:51 2020 +0200
+
+    Week2 Extended
+
+commit 9a652c5a92bdbb7ab611cf824a9064ad59baa8d8
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 24 17:15:19 2020 +0200
+
+    fix bug in play bar and add listener to play btn and handle add-to-favourite buttons
+
+commit 9a508b41d1418c90d7adc02b48bf6c9e147c483b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Mar 24 16:20:26 2020 +0200
+
+    fix add artist bug
+
+commit e6e5a0fe8533f9093cfdca0ec34e6e7e5c88b278
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 24 04:58:53 2020 +0200
+
+    edit playlist fragment and add functions to play activity
+
+commit c118ac3b63b780f20de1e0da51598ab22b1723a1
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Mar 24 04:13:50 2020 +0200
+
+    add bottom sheet on long click on the artists
+
+commit 80cc983b242d9248764b24f836a37263bcb6a6fd
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 16:53:24 2020 +0200
+
+    Delete reduncadnt files of spotify
+
+commit af7aed8eee7f777ec4013aac695876197e7fc1ff
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 16:19:38 2020 +0200
+
+    App icon
+
+commit dddef203abdefc29aea0737a010abe848a4a7c1d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 15:09:27 2020 +0200
+
+    icon verctors, logos
+
+commit 22b2b73792b16402855677858ea16febb813981e
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 23 14:13:57 2020 +0200
+
+    fixing translation
+
+commit adb5c7fe14e1dd8f7fd1c4c80bda61c0f8f68e44
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 23 13:50:08 2020 +0200
+
+    fixing unit test and adding some translations
+
+commit 993ca3cf0af9631ab97be31d8694d1bf3481946d
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 23 13:21:12 2020 +0200
+
+    finish documenting remaining functions
+
+commit 810f51e37c7a8e43c844d460ee8837ddb679d691
+Merge: 54622a2 2a2145f
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 23 12:05:37 2020 +0200
+
+    fix conflict after last commit
+
+commit 54622a2fae246b08921979ea427c98f2c2e2c0b9
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 23 11:55:00 2020 +0200
+
+    add more comments
+
+commit 2a2145fabe00f0e7dfb99fbcb2ebccc71dfb21cf
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Mon Mar 23 04:20:03 2020 +0200
+
+    adding some constraints to functions in mainActivity and playlist fragment
+
+commit e37bf159444379b55cffd1b593811d7c162b2bba
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 03:12:23 2020 +0200
+
+    Add doc for Splash screen, start activity
+
+commit 14bf589a7778e71688be8aa32323f24dc6494666
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 02:53:38 2020 +0200
+
+    Set logo and change backgrounds
+
+commit 1260ebc3627e13163be46ddf99985f3e80b35a8f
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 23 02:52:14 2020 +0200
+
+    finish most of the functions documentation
+
+commit dbcea209527ac8ac9c2c79c3b11319d01a863e35
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 23 01:52:40 2020 +0200
+
+    Finish function documentaion
+
+commit e8a2f0f6bb60dee0f2faa737b21dbe91bd784f5d
+Merge: 4a186c4 5445127
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 23 00:44:20 2020 +0200
+
+    fix conflict after last commit
+
+commit 4a186c4301661864bf4715759cff2c565eddf41d
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 23 00:25:08 2020 +0200
+
+    add comments for functions and classes
+
+commit 544512767dfb22c3cb7d8f8fda88b6da46cf0214
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 23:37:38 2020 +0200
+
+    fix a bug in artists search
+
+commit d6bd22a1046640a5b41287d2f9767aba74977a61
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 22:25:59 2020 +0200
+
+    finish naming conventions
+
+commit 6eca3d52db1e0d51df739c81de35366ae0c7d7ee
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 22:04:57 2020 +0200
+
+    Fix autosizing bug
+
+commit 5aef3b1589558ab0c3decf5b0999af0ea0bd7782
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 21:41:04 2020 +0200
+
+    Add comments for all functions and classes
+
+commit fb8e82e7608fa8d515326e64f2696f799fb853b2
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Mar 22 19:58:22 2020 +0200
+
+    handle onCompletionListener for Media Player
+
+commit 98a209f768136e08a6bc704e9d96ae2f2bc952f9
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Mar 22 19:44:27 2020 +0200
+
+    handle hiddent track from playing playlsit
+
+commit 546d81ec90de4fb9c24d250c42c007aae2e9552a
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 19:42:05 2020 +0200
+
+    finish selecting artist from search list and some functionality enhanced
+
+commit 723e470a5c68779fdbd407fef08f71cf7d2b7e01
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Mar 22 19:05:09 2020 +0200
+
+    add track info to file Utils
+
+commit 76d3618b7de16c9255b59f9f8e40052974b1cd95
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sun Mar 22 18:49:11 2020 +0200
+
+    add all listeners to playlist fragment
+
+commit 67489331f63bd828d981c1b291d1856df32caa8b
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 22 18:21:59 2020 +0200
+
+    fix gradle file
+
+commit 967ba8e9bf22d2064383ea2bda1eeb64a85fab6a
+Merge: 7f1a778 4fe315d
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 22 18:21:09 2020 +0200
+
+    fix conflict after last commit
+
+commit 7f1a778b7b8199e576ca5fbd6909e8d2c47c21f9
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 22 17:55:47 2020 +0200
+
+    fix padding and margin/fix unit test after adding translation
+
+commit 4fe315d34fe61cf2a551dc3f4174d6a1e36e5c7f
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 17:53:48 2020 +0200
+
+    Functions naming, spacing convention
+
+commit 28ed2259769e30687dcb848e757f83015eee0e13
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 17:08:08 2020 +0200
+
+    Naming convention, Spacing, indentation
+
+commit 2e749adb6d636ce8c57bd9c041b7cf5f0d3ce502
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 15:45:11 2020 +0200
+
+    optimize offline dialogs, check internet before activities
+
+commit 017b38a2bda5f70bd5d2b6df77d40da6d169c756
+Merge: 610877e e2cd65d
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 22 15:33:41 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 610877ea984f81753b2e0d143e1decf6b1d78202
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 22 15:33:27 2020 +0200
+
+    add arabic translation
+
+commit e2cd65d7677e44bf06e134382bcf6b69402eb35a
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 15:24:44 2020 +0200
+
+    fix a bug in artist search item click
+
+commit 038270dd739d832c073d6420b792d4526a81e49d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 14:57:01 2020 +0200
+
+    Add new unit test class, fix testing bugs
+
+commit 434ad3b60e40f332c32e75450484f11915c21a52
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 14:43:55 2020 +0200
+
+    adding gradient background in album fragment
+
+commit 1339ec0c269251ecc5fa65a22701f1eb8b6b7f65
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 11:15:31 2020 +0200
+
+    animate library title
+
+commit 4c6f2e28b43434db157c972b735bd99351ceefc1
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 04:07:41 2020 +0200
+
+    add details for clicked album
+
+commit bfafd640314bb0ae8a910de0a34c5b68ff8cb306
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 22 02:43:10 2020 +0200
+
+    album fragment added
+
+commit a495617ddecfe6eb5df8ac7270c0d52b31e98623
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 01:42:23 2020 +0200
+
+    Unit Test For signUp (Listener/artist)
+
+commit 3741bbf84ef455df96aac2fe5b01544a5fdbf171
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 00:48:31 2020 +0200
+
+    Add Skip/keep suggestion, Edit Add artist activity
+
+commit e89749108de711d9494d1bae93dc370a90c8e3c9
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 22 00:13:35 2020 +0200
+
+    Add network checking, keybaord shortcuts
+
+commit 1b6403c638f16a72549dd58ade6ad60e2284b117
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 21 23:56:40 2020 +0200
+
+    fixing bug in playing bar
+
+commit 17961e7f57291ff40de5ac4d402ef4fb8d2f087f
+Merge: c536746 3fbc492
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 23:52:56 2020 +0200
+
+    fix conflict at string.xml
+
+commit 3fbc49262634725a52e5b90845d66861cfb5ec2b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 21 23:45:42 2020 +0200
+
+    Suggest artists for new user
+
+commit 4457d5a61740412d918f708f8b2211ce644692ea
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 21 23:45:22 2020 +0200
+
+    Suggest artists for new user
+
+commit c536746d31e05602f0fdec7368eac58e6f356976
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 23:41:09 2020 +0200
+
+    fix padding and margin/fix text autosizing
+
+commit 7d1944e73877c60357c336a948d7a21e7d231379
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 22:09:14 2020 +0200
+
+    add unit test for category tags
+
+commit 765e601aa4fba1f6de31db09f3cbeb64ad2e9b31
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 21:25:56 2020 +0200
+
+    add mock service for category tags
+
+commit 4e184760c08c2aaa6859c87f9e34f7bcf03ba139
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 20:26:22 2020 +0200
+
+    handle click on buttons
+
+commit b7a739d059f9b4a8e55efafaec87e77d7f4676d2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 19:42:26 2020 +0200
+
+    add popular playlists layout
+
+commit 8229399f38f8212a5873203321fb94cad071efc3
+Merge: 1c0b95b 70fc982
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 18:29:57 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 70fc9828dbac9ef45997d82cb6cc221c76509c91
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 21 17:33:10 2020 +0200
+
+    Dot indicator for recyclerView, Translations & Autosizing for Premium fragment
+
+commit 1c0b95b480b66ad6990c674ed749857f3f38df4a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 15:22:25 2020 +0200
+
+    complete category layout
+
+commit e6769f518b06ea59f85f1c2a285ee0f15bf5e2f2
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 21 08:54:15 2020 +0200
+
+    add images to search main/add category view not completed
+
+commit 17304a43e0c190e86a929e0cc510de66c840b6a0
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 21 04:27:31 2020 +0200
+
+    added media player, and mock service for it
+
+commit 218036731550ca8a887f687ad6a36bae77f3194c
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 21 02:17:25 2020 +0200
+
+    Premium UI
+
+commit 08557ec7902539cf09e7e258c4c06959288b9867
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 20 23:43:06 2020 +0200
+
+    finish showing saved albums
+
+commit 22a9a93d41c21a036ac669123dacd397597c138c
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 22:59:08 2020 +0200
+
+    Austosizing, Translations
+
+commit 2b6787d96be34d0f8f4037a34b4c4753c21610f3
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 21:40:46 2020 +0200
+
+    SignUp as listener/artist : Mock service
+
+commit c3628ffbfd2ef74feb38a2a848760b60a63caeb8
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 20:24:42 2020 +0200
+
+    Sign up pages relations
+
+commit 0f81c2a850d901df6bdd3b2b60b10a594fb45d84
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 20:21:03 2020 +0200
+
+    SignUp Validations
+
+commit 3b7b8d93ed8eab066a6e002c16dc06603a0a36e2
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 17:30:53 2020 +0200
+
+    Add diffrent accounts for signup, edit login method
+
+commit e46b23000504d2ceb7de63c764012c3c1700c8eb
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 20 15:46:41 2020 +0200
+
+    User management optimizations
+
+commit 1eb7d64a20a0b8372e1b7e230f29d182c84e8263
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 20 13:10:19 2020 +0200
+
+    animate recyclerview layout
+
+commit 84d06030b7d64b447880d6c417bfc1210337d9ec
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Fri Mar 20 08:49:27 2020 +0200
+
+    added animation to home and playlist fragments
+
+commit ad651c9575292385187b6823f1e084abb5bdeae9
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Mar 18 20:40:03 2020 +0200
+
+    adding animation for selecting artist in add artists activity
+
+commit 0716faef3471a913f961f3fe872bd8f32b97446f
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Mar 18 19:09:01 2020 +0200
+
+    adding logic of choosing artist from add artist activity
+
+commit 48728ce7a49f48749dd458730a8393e3e972c311
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Mar 18 15:18:19 2020 +0200
+
+    handle clicking on artist item in artist search
+
+commit b9d11f0feb50c5fff9a3eb78ee338a8ab0cd6821
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Mar 18 03:06:52 2020 +0200
+
+    added testing for home fragment and mock services
+
+commit 44f915b24c9f446f33e7186f8c1fcd8a9f5e64e1
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Mar 17 22:16:20 2020 +0200
+
+    adding search logic and mock service for it
+
+commit ddc560e807286ea0856f320bd8f1d7507a6e1050
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Tue Mar 17 18:24:43 2020 +0200
+
+    change search bar method
+
+commit b4bcf5bd67dc614306f2dd3b7e854954396c33d4
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 17 08:48:53 2020 -0400
+
+    added home testing for recent playlists
+
+commit ab2863b6fb063fdfe18d31a95e42a1726b6d7709
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 17 11:23:27 2020 +0200
+
+    fix search with point
+
+commit 24e81c73ed948052debbf7a6a903351a230dba63
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 17 10:29:31 2020 +0200
+
+    improving padding and margin
+
+commit 5f8e331102396a534a8c7dda496010b4f4d8b19c
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 17 10:15:21 2020 +0200
+
+    fix search filter
+
+commit 004bf020432c873adb7b16c8f7054a5b1571deba
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 17 09:38:22 2020 +0200
+
+    improve the filter in search/make data more testable
+
+commit abc4e212b07819b5edaaf7c20a904318a762b722
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 17 09:00:07 2020 +0200
+
+    add transition for gradients/fix search collapse
+
+commit 33f3f11e795a121265a262baf9e76a54638f82ea
+Merge: 0b17b0f 068eb1c
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 16 16:22:39 2020 +0200
+
+    solve conflict after adding gradients/fixing autosizing
+
+commit 0b17b0f8a0969d7b87629ca1aa7eae5c42d8eb4f
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Mon Mar 16 15:57:11 2020 +0200
+
+    fix autosizing text/add grdients
+
+commit 068eb1cefd474cb4cde9c565544174c2923c1750
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Mon Mar 16 01:15:34 2020 +0200
+
+    autosizing, arabic translation
+
+commit 29b987c6bfbf36e73bca5853c67ec6f9ca277069
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 16 00:44:09 2020 +0200
+
+    add arabic translation
+
+commit b9ff461b79727b9c165e10ded57dfa1ae879f44d
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Mon Mar 16 00:18:27 2020 +0200
+
+    fix bug in Artist adapter and add unit tests for mock service
+
+commit 0a922493cfbe36fc6fc8efd6e37bb365bc155a9a
+Merge: e24ca3d a38b6bb
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 15 17:56:25 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit e24ca3d0af91459bd6e7314c17c62e7b042a9351
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sun Mar 15 17:55:51 2020 +0200
+
+    add arabic strings/add text autosizing
+
+commit a38b6bb3addd41ba0c530b5d887e17d2705efd66
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 15 16:39:02 2020 +0200
+
+    fix size of some texts and add style for expanded title
+
+commit d3076576cc6bf5d364315dc8293ee055fe2bb689
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 15 15:25:59 2020 +0200
+
+    Add splash screen
+
+commit b462f13dc61d0b4882ad7930ce240462335f26f7
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 15 15:09:26 2020 +0200
+
+    finish mock service of adding artists
+
+commit 2405d40d0d163314dc709801b018dc149451b911
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 15 14:00:11 2020 +0200
+
+    Add animations to start page
+
+commit 398e3aa7f28bb34aefa861bb065327c437590fa0
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sun Mar 15 13:34:07 2020 +0200
+
+    Add artists objects
+
+commit 4b4a864784eab793efafe67add7fe082973914e0
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sun Mar 15 04:15:40 2020 +0200
+
+    adding mock service for User's Followed Artists and Recommended artist to select from them
+
+commit 3023af6c8197e43935aad87c802f51c697d38942
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 14 23:18:02 2020 +0200
+
+    fix gradle file virsion
+
+commit 40eff57bb67dc9ad506b140cd7c78e76fec29297
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 14 23:16:45 2020 +0200
+
+    unit testing finished
+
+commit fee9f4bc043eed37b3b82e26b3239fdce3277e3c
+Merge: 6fa6b3b 67dbc9f
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 14 20:43:16 2020 +0200
+
+    add data of mock service
+
+commit 6fa6b3bcb2079add6168aa38ee83cd160786a7e7
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Sat Mar 14 19:17:27 2020 +0200
+
+    add strings/add mock functions
+
+commit 67dbc9fe02b8126001801c98e036ca48e428210b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 14 17:34:01 2020 +0200
+
+    Unit test: MockService Login
+
+commit 8301f28ba30a6136d909d2c65edbc501eb484a91
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 14 16:13:42 2020 +0200
+
+    Login as artist (mock service)
+
+commit 793ffe09ff23ff9ad9e837b0203e07add5751524
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 14 15:01:50 2020 +0200
+
+    Login as listener (mock service)
+
+commit 10fbdeb3745ed077296e7a3e8eeb3d4acfbca10f
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 14 12:50:28 2020 +0200
+
+    ServiceController class, add logIn function
+
+commit 0fd055dbc0864be77b82957ef7e7fde777b0b7fe
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 13 16:41:09 2020 +0200
+
+    Add Constants, MockService Class
+
+commit fff7782b5e5255b26fd6283c2384d6e29d78bc24
+Merge: aeface7 ea6cb6c
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 13 16:06:46 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit aeface72e64c696d9f1ba13025431c51ff2e547b
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 13 16:06:16 2020 +0200
+
+    fix code style
+
+commit ea6cb6ccd07891e47ac77d2c881022b5d54449e3
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Fri Mar 13 16:03:12 2020 +0200
+
+    Set Project Structure, General Classes and Entities
+
+commit 445256f449b9fe81224a5a65007e7eb822c059d8
+Merge: 7cc2d17 3d87c63
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 13 05:03:19 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 7cc2d1730f38d1da4f7c78d94fc2ff535184df41
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Fri Mar 13 05:03:00 2020 +0200
+
+    add search filter views
+
+commit 3d87c634dea6fb92eb1491f13813e528701e3fbc
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 13 00:12:57 2020 +0200
+
+    add ArtistsSearch activity
+
+commit 1aa10e449b7db506663663c5cd594d1cb7153389
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Mar 12 16:38:31 2020 +0200
+
+    add search bar to add artist activity
+
+commit 5b4abb79f19aa9c1415a39ef8ea9f309fc13f06b
+Merge: bdf6a09 2d5043a
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Mar 12 16:34:38 2020 +0200
+
+    conflict slolved
+
+commit bdf6a098940c30836292519e2a3677efa5732901
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Thu Mar 12 16:12:37 2020 +0200
+
+    handle buttons clicks
+
+commit fabdc688152b7d2d35cdfcb05acab7f062626df0
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Mar 12 14:51:16 2020 +0200
+
+    add ripple effect to artist list
+
+commit 2d5043aceb8c988e8378ba1e1be76faf07daf68d
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Mar 12 13:14:37 2020 +0200
+
+    Add data and adapter for artists
+
+commit ddd3fddccbf5246bb83a51c3b0f82fbd95164f51
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Mar 11 23:39:17 2020 +0200
+
+    cateogrized files into different packages according to its type
+
+commit e45a28a617dc10fded7ab5ee921e1b976fcae654
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Mar 11 19:42:42 2020 +0200
+
+    fix gradle
+
+commit a88aa0250fe3a4967d6b981d186de9fae00f4c8e
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Wed Mar 11 18:35:36 2020 +0200
+
+    Search results and recent researches added
+
+commit 7ce7b09a74c52dc5ee7e433b62f259260075f5c0
+Author: mahmoud amr nabil <manamw222@gmail.com>
+Date:   Tue Mar 10 03:52:33 2020 +0200
+
+    the main search window finished
+
+commit 6cd5c5e1b8e0ec1ee1a45f87a25756b383a0612c
+Merge: bee97a0 6b6cfc8
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 7 23:57:47 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit bee97a03f369653b4079c747c036d17d7e786f58
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 7 23:57:30 2020 +0200
+
+    fix play activity tool bar dimentions and track item view,no tests yet
+
+commit 6b6cfc88ab07f8f794b02533ede9bad14e4ec538
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 23:26:10 2020 +0200
+
+    Terms of service and privacy policy
+
+commit 7fa301299e8abd9644b15d7a823637c361ac134d
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 21:56:45 2020 +0200
+
+    Forget password: Listener/Artist
+
+commit 31082d4d795097449a4f3629e0dfec3ef30f5779
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 19:06:43 2020 +0200
+
+    Sign Up: Artist
+
+commit 6d0d2594ed53e03830718561292d4f6b490abd6b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 18:00:54 2020 +0200
+
+    Make font suitable for all sizes
+
+commit ddfae99eefc6c5a2aa9d669c6ce9f71aa5790b41
+Merge: 194c911 698845a
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 7 16:00:51 2020 +0200
+
+    Merge branch 'master' of https://github.com/khaledalics22/Symphonia
+
+commit 194c9111d40a1cd110a018935207884d899fe7d0
+Merge: 66f042d ead6705
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 7 15:59:38 2020 +0200
+
+    play bar recycler view bug solved
+
+commit 698845a65e66d4fdc8530d949995f0a463d7ad0b
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 15:46:22 2020 +0200
+
+    Handle sign up constraints
+
+commit 66f042d8a3835aef7fa34b4567951fb66db948c9
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Sat Mar 7 15:35:51 2020 +0200
+
+    recyclerview added to play bar, not tests yet
+
+commit ead6705955a5359ef3b139be754b018a321ee8ee
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 14:30:24 2020 +0200
+
+    Sign up: Listener
+
+commit e608352d728f0d3ece4a5abb235c032cdc4c14a6
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 12:39:01 2020 +0200
+
+    Add login constraints listener/artist
+
+commit 400e8fb72a97852ffd11976e60ada87dbb346b38
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Sat Mar 7 12:24:41 2020 +0200
+
+    add Listener & Artist registeration screens
+
+commit 9650ac3361d2e16bb9acc25edfef61504911aad2
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Sat Mar 7 00:12:29 2020 +0200
+
+    add AddArtists Activity and prepare data adapters
+
+commit 48c0a4c4c3221ca73d7aecb37bfba97fa40aad14
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 6 14:39:20 2020 +0200
+
+    handle cancel button and hide keyboard when exitting CreatePlaylist Activity
+
+commit 0423adcf6685ec42fe1bc94e3966e22a85b17cca
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Fri Mar 6 01:32:38 2020 +0200
+
+    add createPlaylist activity
+
+commit 52f7b01331ca2bcf0c7280b5946e69448edbe40a
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Thu Mar 5 21:56:49 2020 +0200
+
+    preparing playlists, artists and albums fragments
+
+commit 1094a105aa1388a0c9e6d043eb27d7afe6df37fa
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Thu Mar 5 01:02:47 2020 +0200
+
+    added listeners for playActivity,no tests yet
+
+commit 0cf8dcd8bc9cd16c87492e2e50e05a6a28b8beda
+Merge: 9ac053e f7de3d5
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Mar 4 23:58:56 2020 +0200
+
+    merge done
+
+commit 9ac053eeba35e4dfd779e5a41b72a86d78a4f62b
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Mar 4 23:40:49 2020 +0200
+
+    animation added to playActivty and recycler view scrolling handled, no tests yet
+
+commit f7de3d5c03db30da57eeff66c512c17e92830a35
+Author: IslamAhmed1092 <eslam1092@hotmail.com>
+Date:   Wed Mar 4 22:31:56 2020 +0200
+
+    design library fragment
+
+commit bd711b435f54d37432203b806e0ea8c436d0f7b0
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Wed Mar 4 03:17:15 2020 +0200
+
+    added gradient background and playActivity
+
+commit 0f10db3642a960bc10d0d1234a78034c683e5054
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 3 04:00:13 2020 +0200
+
+    added icons for playing bar and playlist layout,not tested
+
+commit 05f95da630141d96052f78aba26bf8b7c4514bec
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Tue Mar 3 03:44:28 2020 +0200
+
+    layout of playlists and playing bar added, not tested yet
+
+commit fd75f38882ab6065c8f8c5f884586d6bf64112e2
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Mon Mar 2 19:22:23 2020 +0200
+
+    added home fragment layout, not tests yet
+
+commit 59c8f4e1f7ba7164361d3ca607a22a05e7b67d58
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Feb 25 14:20:43 2020 +0200
+
+    Add Arabic strings
+    Add drawable styles
+    Add Login Screen (UI)
+
+commit 48acc69f0573c311c7a0606928a000954332ea61
+Author: isemo69 <hossamalaa69.ha@gmail.com>
+Date:   Tue Feb 25 10:22:39 2020 +0200
+
+    Welcome Page
+
+commit 2cf074649a58787fbd28fbc2d385446151f23277
+Author: Khaled Ali <khaled.ali.06.10@gmail.com>
+Date:   Mon Feb 24 22:59:01 2020 +0200
+
+    initial project version
+
+commit 6d7d2bc53c57c41da91793eee8aa7137b060ce1e
+Author: Khaled Ali <45395033+khaledalics22@users.noreply.github.com>
+Date:   Wed Feb 19 00:37:38 2020 -0800
+
+    Initial commit

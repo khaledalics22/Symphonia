@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_track_image_item_play_activity"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_dimen"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="@dimen/semi_large_dimen"
+        android:scaleType="fitXY"
+        tools:src="@drawable/images" />
+</LinearLayout>

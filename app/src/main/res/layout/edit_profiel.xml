@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:focusable="true"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/Edit_profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back_Edit_profile"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/close_white_foreground" />
+
+        <TextView
+            android:id="@+id/tv_Edit_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            app:autoSizeMaxTextSize="18sp"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="Save"
+            android:id="@+id/save_profile"
+            app:autoSizeMaxTextSize="16sp"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/selena"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_change_img"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="change photo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_profile"
+        android:layout_marginTop="10dp"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="manamw2"
+        android:textCursorDrawable="@color/white"
+        app:backgroundTint="@color/white"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="This could be your first name or a nickname"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:gravity="top"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="it's how you'll appear on Spotify"
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        />
+
+</LinearLayout>

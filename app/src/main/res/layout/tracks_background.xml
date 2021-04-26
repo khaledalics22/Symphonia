@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/tv_playlist_image_tracks"
+        android:layout_width="@dimen/image_item_size"
+        android:layout_height="@dimen/image_item_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/medium_dimen"
+        android:scaleType="fitXY"
+        tools:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/tv_playlist_title_tracks"
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sub_title_height"
+        android:layout_gravity="center_horizontal"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_playlist_image_tracks"
+        tools:targetApi="o"
+        tools:text="playlist title" />
+
+    <TextView
+        android:id="@+id/tv_made_for_you_tracks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/body_height"
+        android:layout_gravity="center_horizontal"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:minLines="2"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_playlist_image_tracks"
+        tools:targetApi="o"
+        tools:text="playlist title" />
+
+</LinearLayout>

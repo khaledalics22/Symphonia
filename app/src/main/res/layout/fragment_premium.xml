@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGradient2"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background4">
+
+        <TextView
+            android:id="@+id/try_premium"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="@string/try_premium"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="20sp"
+            app:autoSizeMaxTextSize="38sp"
+            app:autoSizeStepGranularity="2sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="@string/enjoy_many_features"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="14sp"
+            app:autoSizeMaxTextSize="30sp"
+            app:autoSizeStepGranularity="1sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            >
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_premium"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:clipToPadding="false"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/promote_premium"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_curved_white"
+            android:text="@string/get_premium"
+            android:textColor="@color/colorDark"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="14sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
+            />
+
+        <TextView
+            android:id="@+id/t1"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/premium_terms"
+            android:textColor="@color/light_gray2"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/colorGradient2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/background_gray"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/symphonia_free"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="@string/spotify_free"
+                android:gravity="center"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/current_plan"
+                android:gravity="center"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="6sp"
+                app:autoSizeMaxTextSize="16sp"
+                app:autoSizeStepGranularity="1sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/light_gray2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

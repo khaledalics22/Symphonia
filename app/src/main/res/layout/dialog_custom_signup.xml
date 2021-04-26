@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/already_exists_email"
+        android:id="@+id/text_dialog"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="16sp"
+        app:autoSizeMaxTextSize="26sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorGradient2"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/text_dialog"
+        android:text="@string/do_you_want_to_log_in_instead"
+        android:id="@+id/text_dialog2"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorGradient2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="@string/go_to_login"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btn_dialog_login"
+        android:layout_below="@+id/text_dialog2"
+        android:background="@drawable/btn_curved_green"
+        android:layout_centerHorizontal="true"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="@string/close"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_dialog_close"
+        android:layout_below="@+id/btn_dialog_login"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_curved_gray"
+        android:layout_centerHorizontal="true"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

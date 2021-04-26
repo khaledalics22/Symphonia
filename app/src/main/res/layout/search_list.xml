@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include
+        android:id="@+id/search_find_notfound"
+        layout="@layout/serch_find_notfound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_search_layout" />
+
+    <include
+        android:id="@+id/text_search_layout"
+        layout="@layout/text_search_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedscroll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_search_layout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/recent_searches_layout"
+                layout="@layout/recent_searches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@+id/frame_recycler_list_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_list_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <include
+                android:id="@+id/search_list_filter_layout"
+                layout="@layout/search_list_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame_recycler_list_search" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

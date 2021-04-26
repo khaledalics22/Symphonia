@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Activities.User_Management.ForgetPassword.EmailCheck">
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_will_send"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_email"
+        />
+    <Button
+        android:id="@+id/openGmail"
+        android:onClick="openGmail"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_curved_white"
+        android:text="@string/open_email_app"
+        android:textColor="@color/colorGradient2"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

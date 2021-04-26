@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    tools:background="@color/colorPrimary">
+
+    <ImageButton
+        android:id="@+id/iv_close_play_activity"
+        android:layout_width="?android:actionBarSize"
+        android:layout_height="?android:actionBarSize"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/semi_large_dimen"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <TextView
+        android:id="@+id/tv_play_from_play_activity"
+        android:layout_width="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        tools:targetApi="o"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_toStartOf="@+id/iv_track_settings_play_activity"
+        android:layout_toLeftOf="@+id/iv_track_settings_play_activity"
+        android:layout_toEndOf="@+id/iv_close_play_activity"
+        android:layout_toRightOf="@+id/iv_close_play_activity"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:paddingTop="@dimen/small_dimen"
+        android:maxLines="1"
+        android:text="@string/playing_from"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/small_text_size" />
+
+    <TextView
+        android:id="@+id/tv_playlist_title_play_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/tv_play_from_play_activity"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        tools:targetApi="o"
+        android:layout_marginBottom="1dp"
+        android:layout_toStartOf="@+id/iv_track_settings_play_activity"
+        android:layout_toLeftOf="@+id/iv_track_settings_play_activity"
+        android:layout_toEndOf="@+id/iv_close_play_activity"
+        android:layout_toRightOf="@+id/iv_close_play_activity"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:maxLines="1"
+
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/title_size"
+        tools:text="playlist title" />
+
+    <ImageButton
+        android:id="@+id/iv_track_settings_play_activity"
+        android:layout_width="?android:actionBarSize"
+        android:layout_height="?android:actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/semi_large_dimen"
+        android:src="@drawable/ic_more_vert_black_24dp" />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_track_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/track_settings_background">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_track_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/xlarge_dimen"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_track_image_settings"
+            android:layout_width="191dp"
+            android:layout_height="@dimen/image_item_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/medium_dimen"
+            android:scaleType="fitXY"
+            tools:src="@drawable/download" />
+
+        <TextView
+            android:id="@+id/tv_track_title_settings"
+            style="@style/TitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sub_title_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/semi_large_dimen"
+            android:autoSizePresetSizes="@array/autosize_text_sizes"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal"
+            tools:targetApi="o"
+            tools:text="playlist title" />
+
+        <TextView
+            android:id="@+id/tv_track_artist_settings"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/body_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/small_dimen"
+            android:layout_marginBottom="@dimen/large_dimen"
+            android:autoSizePresetSizes="@array/autosize_text_sizes"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal"
+            android:minLines="2"
+            android:textColor="@android:color/white"
+            tools:targetApi="o"
+            tools:text="playlist title" />
+
+        <TextView
+            android:id="@+id/tv_track_liked_settings"
+            style="@style/SettingItem"
+            android:layout_marginTop="@dimen/large_dimen"
+            android:drawableStart="@drawable/ic_favorite_border_black_24dp"
+
+            android:text="@string/like"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/tv_track_hide_settings"
+            style="@style/SettingItem"
+            android:drawableStart="@drawable/ic_do_not_disturb_on_black_24dp"
+            android:text="@string/hide_this_song"
+            tools:targetApi="o" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/medium_dimen"
+            android:background="@color/colorGray" />
+
+        <TextView
+            android:id="@+id/tv_track_add_to_playlst_settings"
+            style="@style/SettingItem"
+            android:drawableStart="@drawable/ic_add_circle_outline_black_24dp"
+            android:text="@string/add_to_playlist"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/tv_track_view_artist_settings"
+            style="@style/SettingItem"
+            android:drawableStart="@drawable/ic_person_outline_black_24dp"
+            android:text="@string/view_artist"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/tv_track_share_settings"
+            style="@style/SettingItem"
+            android:drawableStart="@drawable/ic_share_black_24dp"
+            android:text="@string/share"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/tv_track_report_settings"
+            style="@style/SettingItem"
+            android:drawableStart="@drawable/ic_flag_black_24dp"
+            android:text="@string/report_explicit_content"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/tv_track_show_credits_settings"
+            style="@style/SettingItem"
+            android:layout_marginBottom="@dimen/xlarge_dimen"
+            android:drawableStart="@drawable/ic_people_outline_black_24dp"
+            android:text="@string/show_credits"
+            tools:targetApi="o" />
+
+    </LinearLayout>
+
+</ScrollView>

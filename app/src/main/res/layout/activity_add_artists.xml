@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.User_Interface.AddArtistsActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/view"
+        >
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+
+            <net.opacapp.multilinecollapsingtoolbar.CollapsingToolbarLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_bar_height"
+                android:fitsSystemWindows="true"
+                app:collapsedTitleGravity="center_horizontal"
+                app:collapsedTitleTextAppearance="?android:textAppearanceSmallPopupMenu"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleGravity="start"
+                app:expandedTitleMarginEnd="16dp"
+                app:expandedTitleMarginStart="16dp"
+                app:expandedTitleTextAppearance="@style/TextAppearance.MyApp.Title.Expanded"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:maxLines="2"
+                app:title="@string/title_activity_add_artists"
+                app:toolbarId="@+id/toolbar">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+                </androidx.appcompat.widget.Toolbar>
+
+
+            </net.opacapp.multilinecollapsingtoolbar.CollapsingToolbarLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/artist_search_bar_height"
+                app:cardBackgroundColor="@color/artists_search_bar_background"
+                app:cardCornerRadius="4dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_search"
+                        android:tint="@color/artists_search_bar_content"
+                        android:layout_marginStart="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/search"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/artists_search_bar_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="8dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_artists_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_animation"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@android:color/white"
+            tools:visibility="invisible"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/done_button"
+            android:background="@drawable/btn_done"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/fail_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Lost internet connection?"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="We saved the artists you've\n chosen. to continue, go online"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
+

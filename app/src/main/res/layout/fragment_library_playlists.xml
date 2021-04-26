@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@null"
+    android:id="@+id/nestedscrollview"
+    tools:background="@color/colorPrimary"
+    tools:context=".Fragments_and_models.library.LibraryPlaylistsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:id="@+id/create_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="true">
+
+            <FrameLayout
+                android:layout_width="@dimen/library_item_size"
+                android:layout_height="@dimen/library_item_size"
+                android:background="@color/addImageBackground">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:text="@string/create_playlist"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/liked_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="horizontal"
+            android:layout_below="@id/create_playlist"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="8dp"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="8dp">
+
+            <FrameLayout
+                android:id="@+id/liked_songs_image"
+                android:layout_width="@dimen/library_item_size"
+                android:layout_height="@dimen/library_item_size"
+                android:background="@drawable/background_liked_songs"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_favorite_black_24dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/text_liked_songs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Liked Songs"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/liked_songs_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toEndOf="@+id/liked_songs_image"
+                app:layout_constraintTop_toBottomOf="@+id/text_liked_songs">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="16dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shuffle_background">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_shuffle"
+                        android:tint="@color/colorPrimary" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/text_songs_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/light_gray"
+                    android:textSize="13sp"
+                    tools:text="2 songs" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_playlists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/liked_songs" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/icn_loading_indicator"
+            />
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+

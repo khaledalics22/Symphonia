@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_play_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.User_Interface.PlayActivity">
+
+    <include
+        android:id="@+id/toolbar_play_activity"
+        layout="@layout/toolbar_layout_play_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_playlist_play_activity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_track_title_play_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_play_activity"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tv_track_title_play_activity"
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:autoSizeTextType="uniform"
+        android:background="@android:color/transparent"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/semi_large_dimen"
+        app:layout_constraintBottom_toTopOf="@+id/tv_track_artist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_playlist_play_activity"
+        tools:targetApi="o"
+        tools:text="Song title" />
+
+    <TextView
+        android:id="@+id/tv_track_artist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/body_height"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:autoSizeTextType="uniform"
+        android:background="@android:color/transparent"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingStart="@dimen/semi_large_dimen"
+        android:paddingLeft="@dimen/semi_large_dimen"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:textColor="@color/light_gray"
+        app:layout_constraintBottom_toTopOf="@+id/playlist_controller_play_activity"
+        app:layout_constraintStart_toStartOf="@+id/tv_track_title_play_activity"
+        app:layout_constraintTop_toBottomOf="@+id/tv_track_title_play_activity"
+        tools:targetApi="o"
+        tools:text="Song title" />
+
+    <include
+        android:id="@+id/playlist_controller_play_activity"
+        layout="@layout/playlist_play_activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/large_dimen"
+        android:layout_marginBottom="@dimen/large_dimen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_track_artist"
+        app:layout_constraintVertical_weight="1"
+        tools:layout_editor_absoluteX="15dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
